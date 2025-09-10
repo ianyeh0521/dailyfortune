@@ -17,7 +17,7 @@
 ### 方式1：下載可執行檔 | Method 1: Download Executable
 
 1. 前往 **[Releases](../../releases)** 頁面
-2. 下載適合您系統的版本：
+2. 下載適合系統的版本：
    - **Windows**: `今日幸運籤餅-Windows.zip`
    - **macOS**: `今日幸運籤餅-macOS.zip`
 3. 解壓縮並雙擊執行檔即可使用
@@ -43,7 +43,7 @@ python build_universal.py
 
 1. **啟動應用** - 雙擊執行檔開始使用
 2. **獲取籤餅** - 點擊「獲取今日籤餅」按鈕
-3. **查看統計** - 點擊「查看統計」了解您的使用記錄
+3. **查看統計** - 點擊「查看統計」了解使用記錄
 4. **明日再來** - 每天回來獲取新的籤餅！
 
 ---
@@ -60,7 +60,7 @@ python build_universal.py
 
 ## 資料儲存 | Data Storage
 
-您的籤餅歷史記錄儲存在：
+籤餅歷史記錄儲存在：
 
 - **Windows**: `C:\Users\[使用者名稱]\.dailyfortune\`
 - **macOS**: `/Users/[username]/.dailyfortune/`
