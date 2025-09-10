@@ -5,11 +5,12 @@
 ## 特色功能 | Features
 
 -  **每日限定** - 一天只能獲得一個籤餅，保持神秘感
--  **統計追蹤** - 記錄您的連續天數和總籤餅數
--  **豐富內容** - 超過 100條精心挑選的勵志訊息
+-  **統計追蹤** - 記錄連續天數和總籤餅數
+-  **豐富內容** - 超過 1000 條精心挑選的籤餅內容
 -  **離線運行** - 無需網路連線，完全本地運行
 -  **隱私保護** - 所有資料儲存在本地，絕不上傳
 
+---
 
 ## 下載安裝 | Download & Installation
 
@@ -47,11 +48,6 @@ python build_universal.py
 
 ---
 
-1. **Launch App** - Double-click the executable to start
-2. **Get Fortune** - Click "Get Today's Fortune Cookie" button
-3. **View Stats** - Click "View Statistics" to see your usage record
-4. **Come Back Tomorrow** - Return daily for new fortune cookies!
-
 ## 首次運行注意事項 | First Run Notes
 
 ### Windows 使用者 | Windows Users
@@ -65,8 +61,6 @@ python build_universal.py
 ## 資料儲存 | Data Storage
 
 您的籤餅歷史記錄儲存在：
-
-Your fortune history is stored at:
 
 - **Windows**: `C:\Users\[使用者名稱]\.dailyfortune\`
 - **macOS**: `/Users/[username]/.dailyfortune/`
