@@ -21,14 +21,6 @@
    - **macOS**: `今日幸運籤餅-macOS.zip`
 3. 解壓縮並雙擊執行檔即可使用
 
----
-
-1. Go to **[Releases](../../releases)** page
-2. Download the version for your system:
-   - **Windows**: `今日幸運籤餅-Windows.zip`
-   - **macOS**: `今日幸運籤餅-macOS.zip`  
-3. Extract and double-click the executable to run
-
 ### 方式2：從原始碼運行 | Method 2: Run from Source
 
 ```bash
