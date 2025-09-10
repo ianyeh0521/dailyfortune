@@ -16,10 +16,10 @@ jobs:
         os: [windows-latest, macos-latest]
         include:
           - os: windows-latest
-            executable_name: "今日幸運籤餅.exe"
+            executable_name: "DailyFortuneCookie.exe"
             artifact_name: "fortune-cookie-windows"
           - os: macos-latest  
-            executable_name: "今日幸運籤餅"
+            executable_name: "DailyFortuneCookie"
             artifact_name: "fortune-cookie-macos"
 
     steps:
@@ -38,12 +38,12 @@ jobs:
     - name: Build executable (Windows)
       if: matrix.os == 'windows-latest'
       run: |
-        pyinstaller --onefile --windowed --name "今日幸運籤餅" --add-data "fortunes.json;." main.py
+        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json;." main.py
 
     - name: Build executable (macOS)
       if: matrix.os == 'macos-latest'
       run: |
-        pyinstaller --onefile --windowed --name "今日幸運籤餅" --add-data "fortunes.json:." main.py
+        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json:." main.py
 
     - name: Create README for distribution
       shell: python
