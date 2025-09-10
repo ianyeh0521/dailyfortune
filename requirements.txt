@@ -1,0 +1,12 @@
+# Daily Fortune App Dependencies
+# Note: tkinter comes built-in with Python 3.x on desktop systems
+
+# Build Dependencies
+pyinstaller>=5.0.0  # For creating executables
+
+# Optional: Fortune generation
+openai>=1.0.0  # For generating fortune content (optional)
+
+# Optional: For future enhancements  
+# requests==2.31.0  # For online fortune sources
+# pillow==10.0.0    # For image support

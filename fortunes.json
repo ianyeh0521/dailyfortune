@@ -1,0 +1,5102 @@
+[
+  {
+    "id": 1,
+    "text": "Today brings new opportunities your way",
+    "category": "encouraging"
+  },
+  {
+    "id": 2,
+    "text": "Your patience will be rewarded soon",
+    "category": "motivational"
+  },
+  {
+    "id": 3,
+    "text": "A small act of kindness will make a big difference",
+    "category": "general"
+  },
+  {
+    "id": 4,
+    "text": "Trust your instincts today",
+    "category": "encouraging"
+  },
+  {
+    "id": 5,
+    "text": "Good things come to those who wait",
+    "category": "motivational"
+  },
+  {
+    "id": 6,
+    "text": "You are stronger than you think",
+    "category": "encouraging"
+  },
+  {
+    "id": 7,
+    "text": "Today is a perfect day to start something new",
+    "category": "motivational"
+  },
+  {
+    "id": 8,
+    "text": "The best is yet to come",
+    "category": "encouraging"
+  },
+  {
+    "id": 9,
+    "text": "Your hard work will pay off",
+    "category": "motivational"
+  },
+  {
+    "id": 10,
+    "text": "Believe in yourself and magic will happen",
+    "category": "encouraging"
+  },
+  {
+    "id": 11,
+    "text": "Every ending is a new beginning",
+    "category": "encouraging"
+  },
+  {
+    "id": 12,
+    "text": "You have the power to create positive change",
+    "category": "motivational"
+  },
+  {
+    "id": 13,
+    "text": "Today's challenges are tomorrow's strengths",
+    "category": "encouraging"
+  },
+  {
+    "id": 14,
+    "text": "Your dreams are within reach",
+    "category": "motivational"
+  },
+  {
+    "id": 15,
+    "text": "Success comes to those who persevere",
+    "category": "motivational"
+  },
+  {
+    "id": 16,
+    "text": "You are exactly where you need to be",
+    "category": "encouraging"
+  },
+  {
+    "id": 17,
+    "text": "Great achievements start with small steps",
+    "category": "motivational"
+  },
+  {
+    "id": 18,
+    "text": "Your positive energy attracts good fortune",
+    "category": "encouraging"
+  },
+  {
+    "id": 19,
+    "text": "Today holds wonderful surprises for you",
+    "category": "general"
+  },
+  {
+    "id": 20,
+    "text": "You have everything you need to succeed",
+    "category": "encouraging"
+  },
+  {
+    "id": 21,
+    "text": "Embrace change, for it leads to growth and new opportunities.",
+    "category": "encouraging"
+  },
+  {
+    "id": 22,
+    "text": "Your resilience will overcome any obstacle that comes your way.",
+    "category": "encouraging"
+  },
+  {
+    "id": 23,
+    "text": "Believe in yourself, for you are capable of incredible things.",
+    "category": "encouraging"
+  },
+  {
+    "id": 24,
+    "text": "Spread positivity like wildfire; it will come back to you abundantly.",
+    "category": "encouraging"
+  },
+  {
+    "id": 25,
+    "text": "Your hard work and dedication will pay off in unexpected ways.",
+    "category": "encouraging"
+  },
+  {
+    "id": 26,
+    "text": "Every setback is a setup for a remarkable comeback.",
+    "category": "encouraging"
+  },
+  {
+    "id": 27,
+    "text": "Trust in the journey, even when the path seems unclear.",
+    "category": "encouraging"
+  },
+  {
+    "id": 28,
+    "text": "Kindness is a language that everyone can understand and appreciate.",
+    "category": "encouraging"
+  },
+  {
+    "id": 29,
+    "text": "Your courage will pave the way to remarkable achievements.",
+    "category": "encouraging"
+  },
+  {
+    "id": 30,
+    "text": "Patience is the key to unlocking life's greatest treasures.",
+    "category": "encouraging"
+  },
+  {
+    "id": 31,
+    "text": "Your potential is limitless; dare to dream big and chase it.",
+    "category": "encouraging"
+  },
+  {
+    "id": 32,
+    "text": "Opportunities are like sunrises; if you wait too long, you miss them.",
+    "category": "encouraging"
+  },
+  {
+    "id": 33,
+    "text": "Stay focused on your goals, for they are within reach.",
+    "category": "encouraging"
+  },
+  {
+    "id": 34,
+    "text": "Your positive attitude will attract endless blessings into your life.",
+    "category": "encouraging"
+  },
+  {
+    "id": 35,
+    "text": "Cherish the present moment; it holds the seeds of future joy.",
+    "category": "encouraging"
+  },
+  {
+    "id": 36,
+    "text": "Gratitude turns what we have into more than enough.",
+    "category": "encouraging"
+  },
+  {
+    "id": 37,
+    "text": "Your authenticity is your superpower; shine bright and be yourself.",
+    "category": "encouraging"
+  },
+  {
+    "id": 38,
+    "text": "The world is full of possibilities waiting for you to explore.",
+    "category": "encouraging"
+  },
+  {
+    "id": 39,
+    "text": "Compassion and understanding will always lead you to the right path.",
+    "category": "encouraging"
+  },
+  {
+    "id": 40,
+    "text": "Let go of what weighs you down and soar to new heights.",
+    "category": "encouraging"
+  },
+  {
+    "id": 41,
+    "text": "Your gentle spirit and kindness will leave a lasting impact.",
+    "category": "encouraging"
+  },
+  {
+    "id": 42,
+    "text": "Every moment is a chance to start anew; seize it with joy.",
+    "category": "encouraging"
+  },
+  {
+    "id": 43,
+    "text": "Believe in the beauty of your dreams; they are worth pursuing.",
+    "category": "encouraging"
+  },
+  {
+    "id": 44,
+    "text": "Embrace challenges as stepping stones to greatness.",
+    "category": "encouraging"
+  },
+  {
+    "id": 45,
+    "text": "Your determination will open doors you never thought possible.",
+    "category": "encouraging"
+  },
+  {
+    "id": 46,
+    "text": "Success is not a destination but a journey; enjoy every step.",
+    "category": "encouraging"
+  },
+  {
+    "id": 47,
+    "text": "The universe conspires in your favor when you follow your heart.",
+    "category": "encouraging"
+  },
+  {
+    "id": 48,
+    "text": "Radiate positivity and watch how it transforms your world.",
+    "category": "encouraging"
+  },
+  {
+    "id": 49,
+    "text": "Your strength lies in your ability to rise after every fall.",
+    "category": "encouraging"
+  },
+  {
+    "id": 50,
+    "text": "The seeds you plant today will bloom into a beautiful tomorrow.",
+    "category": "encouraging"
+  },
+  {
+    "id": 51,
+    "text": "Embrace the unknown with an open heart and a curious mind.",
+    "category": "encouraging"
+  },
+  {
+    "id": 52,
+    "text": "Your kindness will light up even the darkest of places.",
+    "category": "encouraging"
+  },
+  {
+    "id": 53,
+    "text": "You are a masterpiece in progress; keep painting your story.",
+    "category": "encouraging"
+  },
+  {
+    "id": 54,
+    "text": "Stay true to yourself; you are a beacon of light in darkness.",
+    "category": "encouraging"
+  },
+  {
+    "id": 55,
+    "text": "The challenges you face today build the strength you need tomorrow.",
+    "category": "encouraging"
+  },
+  {
+    "id": 56,
+    "text": "Dreams become reality when you believe in their magic.",
+    "category": "encouraging"
+  },
+  {
+    "id": 57,
+    "text": "Your potential is like a vast ocean; explore its depths fearlessly.",
+    "category": "encouraging"
+  },
+  {
+    "id": 58,
+    "text": "Let your heart be your compass; it will guide you to greatness.",
+    "category": "encouraging"
+  },
+  {
+    "id": 59,
+    "text": "Embrace the journey of self-discovery with courage and grace.",
+    "category": "encouraging"
+  },
+  {
+    "id": 60,
+    "text": "Every closed door is an opportunity for a new beginning.",
+    "category": "encouraging"
+  },
+  {
+    "id": 61,
+    "text": "Your journey is unique and valuable; embrace it with gratitude.",
+    "category": "encouraging"
+  },
+  {
+    "id": 62,
+    "text": "Be the reason someone believes in the goodness of people.",
+    "category": "encouraging"
+  },
+  {
+    "id": 63,
+    "text": "Your kindness will create ripples of positive change in the world.",
+    "category": "encouraging"
+  },
+  {
+    "id": 64,
+    "text": "Believe in the power of your voice to inspire and uplift others.",
+    "category": "encouraging"
+  },
+  {
+    "id": 65,
+    "text": "Your inner strength will carry you through life's storms triumphantly.",
+    "category": "encouraging"
+  },
+  {
+    "id": 66,
+    "text": "Every day is a blank canvas; paint it with love and kindness.",
+    "category": "encouraging"
+  },
+  {
+    "id": 67,
+    "text": "Trust in the universe's plan for you; it's greater than you know.",
+    "category": "encouraging"
+  },
+  {
+    "id": 68,
+    "text": "Your optimism is a beacon of hope in a world that needs it.",
+    "category": "encouraging"
+  },
+  {
+    "id": 69,
+    "text": "Believe in your resilience; you are stronger than you know.",
+    "category": "encouraging"
+  },
+  {
+    "id": 70,
+    "text": "Embrace the journey, for every step brings you closer to success.",
+    "category": "encouraging"
+  },
+  {
+    "id": 71,
+    "text": "Your kindness creates ripples of positivity in the world.",
+    "category": "encouraging"
+  },
+  {
+    "id": 72,
+    "text": "You are capable of overcoming any obstacle that comes your way.",
+    "category": "encouraging"
+  },
+  {
+    "id": 73,
+    "text": "Find joy in the small moments, for they are the true treasures.",
+    "category": "encouraging"
+  },
+  {
+    "id": 74,
+    "text": "Trust in your abilities; you are more powerful than you realize.",
+    "category": "encouraging"
+  },
+  {
+    "id": 75,
+    "text": "Your positivity is a beacon of light in a sometimes dark world.",
+    "category": "encouraging"
+  },
+  {
+    "id": 76,
+    "text": "Seize the day with confidence; great things await you.",
+    "category": "encouraging"
+  },
+  {
+    "id": 77,
+    "text": "Every setback is a setup for a remarkable comeback.",
+    "category": "encouraging"
+  },
+  {
+    "id": 78,
+    "text": "Your potential is limitless; believe in your boundless capabilities.",
+    "category": "encouraging"
+  },
+  {
+    "id": 79,
+    "text": "Radiate kindness, and watch the world become a better place.",
+    "category": "encouraging"
+  },
+  {
+    "id": 80,
+    "text": "Embrace change as an opportunity for growth and new beginnings.",
+    "category": "encouraging"
+  },
+  {
+    "id": 81,
+    "text": "Your courage will lead you to extraordinary adventures.",
+    "category": "encouraging"
+  },
+  {
+    "id": 82,
+    "text": "Embrace the unknown; it holds the potential for endless possibilities.",
+    "category": "encouraging"
+  },
+  {
+    "id": 83,
+    "text": "Your determination will pave the way for your success.",
+    "category": "encouraging"
+  },
+  {
+    "id": 84,
+    "text": "You are a masterpiece in progress; keep painting your story.",
+    "category": "encouraging"
+  },
+  {
+    "id": 85,
+    "text": "Spread your wings and dare to soar to new heights.",
+    "category": "encouraging"
+  },
+  {
+    "id": 86,
+    "text": "Challenge yourself, for that's where growth and transformation lie.",
+    "category": "encouraging"
+  },
+  {
+    "id": 87,
+    "text": "The universe is conspiring to bring you great blessings.",
+    "category": "encouraging"
+  },
+  {
+    "id": 88,
+    "text": "Your positive energy attracts abundance and good fortune.",
+    "category": "encouraging"
+  },
+  {
+    "id": 89,
+    "text": "In every challenge lies an opportunity for growth and learning.",
+    "category": "encouraging"
+  },
+  {
+    "id": 90,
+    "text": "Keep shining brightly; the world needs your light.",
+    "category": "encouraging"
+  },
+  {
+    "id": 91,
+    "text": "Embrace your uniqueness; it is your superpower.",
+    "category": "encouraging"
+  },
+  {
+    "id": 92,
+    "text": "Your dreams are within reach; keep reaching for the stars.",
+    "category": "encouraging"
+  },
+  {
+    "id": 93,
+    "text": "Every day is a fresh canvas to paint your dreams upon.",
+    "category": "encouraging"
+  },
+  {
+    "id": 94,
+    "text": "You are a force of good; let your actions inspire others.",
+    "category": "encouraging"
+  },
+  {
+    "id": 95,
+    "text": "Your potential for greatness is limitless; believe in yourself.",
+    "category": "encouraging"
+  },
+  {
+    "id": 96,
+    "text": "Forge your path with courage and determination; success will follow.",
+    "category": "encouraging"
+  },
+  {
+    "id": 97,
+    "text": "Your kindness and compassion make the world a better place.",
+    "category": "encouraging"
+  },
+  {
+    "id": 98,
+    "text": "The universe is aligning to bring you closer to your dreams.",
+    "category": "encouraging"
+  },
+  {
+    "id": 99,
+    "text": "Your resilience and strength will carry you through any storm.",
+    "category": "encouraging"
+  },
+  {
+    "id": 100,
+    "text": "Embrace the present moment, for it is a gift waiting to be unwrapped.",
+    "category": "encouraging"
+  },
+  {
+    "id": 101,
+    "text": "Believe in yourself, for you are capable of achieving greatness.",
+    "category": "encouraging"
+  },
+  {
+    "id": 102,
+    "text": "Trust in the journey, even when the path seems uncertain.",
+    "category": "encouraging"
+  },
+  {
+    "id": 103,
+    "text": "Your positive attitude is a magnet for all good things.",
+    "category": "encouraging"
+  },
+  {
+    "id": 104,
+    "text": "The seeds of greatness lie within you; nurture them with care.",
+    "category": "encouraging"
+  },
+  {
+    "id": 105,
+    "text": "Your kindness and generosity will never go unnoticed.",
+    "category": "encouraging"
+  },
+  {
+    "id": 106,
+    "text": "You have the power to create the life of your dreams.",
+    "category": "encouraging"
+  },
+  {
+    "id": 107,
+    "text": "Every setback is a setup for a remarkable comeback.",
+    "category": "encouraging"
+  },
+  {
+    "id": 108,
+    "text": "Learn from yesterday, live for today, and dream for tomorrow.",
+    "category": "encouraging"
+  },
+  {
+    "id": 109,
+    "text": "Your optimism and positivity are contagious; spread them far and wide.",
+    "category": "encouraging"
+  },
+  {
+    "id": 110,
+    "text": "Believe in the beauty of your dreams; they are worth pursuing.",
+    "category": "encouraging"
+  },
+  {
+    "id": 111,
+    "text": "Your resilience is your greatest strength; keep pushing forward.",
+    "category": "encouraging"
+  },
+  {
+    "id": 112,
+    "text": "In every challenge lies an opportunity for growth and learning.",
+    "category": "encouraging"
+  },
+  {
+    "id": 113,
+    "text": "Your inner strength is a powerful force; trust in its guidance.",
+    "category": "encouraging"
+  },
+  {
+    "id": 114,
+    "text": "Embrace change as an opportunity for growth and renewal.",
+    "category": "encouraging"
+  },
+  {
+    "id": 115,
+    "text": "Your journey is uniquely yours; embrace it with open arms.",
+    "category": "encouraging"
+  },
+  {
+    "id": 116,
+    "text": "Trust in the process; the universe has a plan for you.",
+    "category": "encouraging"
+  },
+  {
+    "id": 117,
+    "text": "Embrace change, for it brings growth and new opportunities.",
+    "category": "encouraging"
+  },
+  {
+    "id": 118,
+    "text": "Believe in yourself, for your potential is limitless.",
+    "category": "encouraging"
+  },
+  {
+    "id": 119,
+    "text": "Kindness is a language that everyone understands.",
+    "category": "encouraging"
+  },
+  {
+    "id": 120,
+    "text": "Your positive outlook will attract abundance and happiness.",
+    "category": "encouraging"
+  },
+  {
+    "id": 121,
+    "text": "Forgive, for it is the key to inner peace.",
+    "category": "encouraging"
+  },
+  {
+    "id": 122,
+    "text": "Every setback is a setup for a comeback.",
+    "category": "encouraging"
+  },
+  {
+    "id": 123,
+    "text": "Gratitude opens doors to abundance and joy.",
+    "category": "encouraging"
+  },
+  {
+    "id": 124,
+    "text": "You are capable of achieving great things.",
+    "category": "encouraging"
+  },
+  {
+    "id": 125,
+    "text": "Your journey is unique and worth celebrating.",
+    "category": "encouraging"
+  },
+  {
+    "id": 126,
+    "text": "Every day is a chance to create a brighter future.",
+    "category": "encouraging"
+  },
+  {
+    "id": 127,
+    "text": "Trust the timing of your life's unfolding.",
+    "category": "encouraging"
+  },
+  {
+    "id": 128,
+    "text": "Cherish the present moment; it is a gift.",
+    "category": "encouraging"
+  },
+  {
+    "id": 129,
+    "text": "Your smile can brighten someone's day.",
+    "category": "encouraging"
+  },
+  {
+    "id": 130,
+    "text": "Love is the answer to every question.",
+    "category": "encouraging"
+  },
+  {
+    "id": 131,
+    "text": "Empathy and compassion will lead you to understanding.",
+    "category": "encouraging"
+  },
+  {
+    "id": 132,
+    "text": "The universe is conspiring in your favor.",
+    "category": "encouraging"
+  },
+  {
+    "id": 133,
+    "text": "You are a beacon of light in the world.",
+    "category": "encouraging"
+  },
+  {
+    "id": 134,
+    "text": "Mistakes are opportunities to learn and grow.",
+    "category": "encouraging"
+  },
+  {
+    "id": 135,
+    "text": "Believe in miracles, for they are all around you.",
+    "category": "encouraging"
+  },
+  {
+    "id": 136,
+    "text": "In every challenge lies an opportunity for growth.",
+    "category": "encouraging"
+  },
+  {
+    "id": 137,
+    "text": "Your positive energy is a magnet for good things.",
+    "category": "encouraging"
+  },
+  {
+    "id": 138,
+    "text": "Celebrate your progress, no matter how small.",
+    "category": "encouraging"
+  },
+  {
+    "id": 139,
+    "text": "Be kind to yourself; you are doing your best.",
+    "category": "encouraging"
+  },
+  {
+    "id": 140,
+    "text": "Your potential is as vast as the ocean.",
+    "category": "encouraging"
+  },
+  {
+    "id": 141,
+    "text": "Every moment is a fresh beginning.",
+    "category": "encouraging"
+  },
+  {
+    "id": 142,
+    "text": "Trust in the power of your dreams.",
+    "category": "encouraging"
+  },
+  {
+    "id": 143,
+    "text": "Difficult roads often lead to beautiful destinations.",
+    "category": "encouraging"
+  },
+  {
+    "id": 144,
+    "text": "You have the strength to overcome any obstacle.",
+    "category": "encouraging"
+  },
+  {
+    "id": 145,
+    "text": "Embrace the journey, for every step forward is progress in disguise.",
+    "category": "encouraging"
+  },
+  {
+    "id": 146,
+    "text": "Believe in your abilities, for you are capable of great things.",
+    "category": "motivational"
+  },
+  {
+    "id": 147,
+    "text": "Your positive energy attracts success in all aspects of life.",
+    "category": "motivational"
+  },
+  {
+    "id": 148,
+    "text": "Embrace challenges as opportunities for growth and transformation.",
+    "category": "motivational"
+  },
+  {
+    "id": 149,
+    "text": "Hard work and determination will lead you to your dreams.",
+    "category": "motivational"
+  },
+  {
+    "id": 150,
+    "text": "Your kindness and compassion will make a difference in someone's life.",
+    "category": "motivational"
+  },
+  {
+    "id": 151,
+    "text": "Trust in the journey, for every step brings you closer to greatness.",
+    "category": "motivational"
+  },
+  {
+    "id": 152,
+    "text": "Radiate positivity and watch how it transforms the world around you.",
+    "category": "motivational"
+  },
+  {
+    "id": 153,
+    "text": "Your resilience will weather any storm that comes your way.",
+    "category": "motivational"
+  },
+  {
+    "id": 154,
+    "text": "Every setback is a setup for a remarkable comeback.",
+    "category": "motivational"
+  },
+  {
+    "id": 155,
+    "text": "Your potential is limitless, embrace the endless possibilities.",
+    "category": "motivational"
+  },
+  {
+    "id": 156,
+    "text": "Embrace change, for it brings new opportunities and growth.",
+    "category": "motivational"
+  },
+  {
+    "id": 157,
+    "text": "Success is not a destination but a journey of perseverance.",
+    "category": "motivational"
+  },
+  {
+    "id": 158,
+    "text": "Your positive mindset will manifest abundance in every area of life.",
+    "category": "motivational"
+  },
+  {
+    "id": 159,
+    "text": "Believe in yourself, for you are stronger than you think.",
+    "category": "motivational"
+  },
+  {
+    "id": 160,
+    "text": "Every moment is a chance to make a positive impact.",
+    "category": "motivational"
+  },
+  {
+    "id": 161,
+    "text": "Your dreams are within reach, keep reaching for the stars.",
+    "category": "motivational"
+  },
+  {
+    "id": 162,
+    "text": "Stay focused on your goals, they are closer than you think.",
+    "category": "motivational"
+  },
+  {
+    "id": 163,
+    "text": "Your determination will pave the way to extraordinary achievements.",
+    "category": "motivational"
+  },
+  {
+    "id": 164,
+    "text": "Your journey is unique, embrace the twists and turns with grace.",
+    "category": "motivational"
+  },
+  {
+    "id": 165,
+    "text": "Your optimism will light the path to success for others.",
+    "category": "motivational"
+  },
+  {
+    "id": 166,
+    "text": "Your joy is contagious, spread it wherever you go.",
+    "category": "motivational"
+  },
+  {
+    "id": 167,
+    "text": "You are a beacon of light in a world that needs your shine.",
+    "category": "motivational"
+  },
+  {
+    "id": 168,
+    "text": "Every day is a new beginning, full of endless possibilities.",
+    "category": "motivational"
+  },
+  {
+    "id": 169,
+    "text": "Your potential is like a seed waiting to bloom into greatness.",
+    "category": "motivational"
+  },
+  {
+    "id": 170,
+    "text": "Embrace the present moment, for it is where your power lies.",
+    "category": "motivational"
+  },
+  {
+    "id": 171,
+    "text": "Kindness is the key that unlocks doors to endless opportunities.",
+    "category": "motivational"
+  },
+  {
+    "id": 172,
+    "text": "In every challenge lies an opportunity for growth and learning.",
+    "category": "motivational"
+  },
+  {
+    "id": 173,
+    "text": "Your positive attitude is a magnet for miracles and blessings.",
+    "category": "motivational"
+  },
+  {
+    "id": 174,
+    "text": "Your strength lies in your ability to rise after every fall.",
+    "category": "motivational"
+  },
+  {
+    "id": 175,
+    "text": "Your courage will guide you through even the darkest of times.",
+    "category": "motivational"
+  },
+  {
+    "id": 176,
+    "text": "You are deserving of all the love and abundance life has to offer.",
+    "category": "motivational"
+  },
+  {
+    "id": 177,
+    "text": "Every step you take brings you closer to your dreams.",
+    "category": "motivational"
+  },
+  {
+    "id": 178,
+    "text": "Your perseverance will lead you to the success you desire.",
+    "category": "motivational"
+  },
+  {
+    "id": 179,
+    "text": "Believe in the power of your dreams, for they are within reach.",
+    "category": "motivational"
+  },
+  {
+    "id": 180,
+    "text": "Your journey is uniquely yours, embrace it with open arms.",
+    "category": "motivational"
+  },
+  {
+    "id": 181,
+    "text": "You are a masterpiece in progress, embrace your evolution.",
+    "category": "motivational"
+  },
+  {
+    "id": 182,
+    "text": "Your potential is limitless, let your light shine brightly.",
+    "category": "motivational"
+  },
+  {
+    "id": 183,
+    "text": "Stay true to yourself, for authenticity is your greatest strength.",
+    "category": "motivational"
+  },
+  {
+    "id": 184,
+    "text": "Success is not defined by the destination, but by the journey.",
+    "category": "motivational"
+  },
+  {
+    "id": 185,
+    "text": "Your kindness will create ripples of positivity in the world.",
+    "category": "motivational"
+  },
+  {
+    "id": 186,
+    "text": "Embrace challenges as opportunities for growth and self-discovery.",
+    "category": "motivational"
+  },
+  {
+    "id": 187,
+    "text": "Your determination will pave the way for your success story.",
+    "category": "motivational"
+  },
+  {
+    "id": 188,
+    "text": "Stay true to your vision, for it holds the key to your success.",
+    "category": "motivational"
+  },
+  {
+    "id": 189,
+    "text": "Your worth is not defined by others, but by your own belief.",
+    "category": "motivational"
+  },
+  {
+    "id": 190,
+    "text": "Every moment is an opportunity to make a positive impact.",
+    "category": "motivational"
+  },
+  {
+    "id": 191,
+    "text": "Your resilience will carry you through any obstacle in your path.",
+    "category": "motivational"
+  },
+  {
+    "id": 192,
+    "text": "Believe in the power of your dreams, for they are your guiding light.",
+    "category": "motivational"
+  },
+  {
+    "id": 193,
+    "text": "Embrace the unknown, for it holds endless possibilities.",
+    "category": "motivational"
+  },
+  {
+    "id": 194,
+    "text": "Your positive energy attracts success and happiness effortlessly.",
+    "category": "motivational"
+  },
+  {
+    "id": 195,
+    "text": "Believe in yourself, for you are capable of amazing things.",
+    "category": "motivational"
+  },
+  {
+    "id": 196,
+    "text": "Every setback is a setup for a greater comeback.",
+    "category": "motivational"
+  },
+  {
+    "id": 197,
+    "text": "Kindness is a language that everyone can understand.",
+    "category": "motivational"
+  },
+  {
+    "id": 198,
+    "text": "Your potential is limitless; let your light shine brightly.",
+    "category": "motivational"
+  },
+  {
+    "id": 199,
+    "text": "Every day is a new chance to create your own happiness.",
+    "category": "motivational"
+  },
+  {
+    "id": 200,
+    "text": "Stay true to yourself; authenticity is your superpower.",
+    "category": "motivational"
+  },
+  {
+    "id": 201,
+    "text": "Hard work and perseverance will lead you to greatness.",
+    "category": "motivational"
+  },
+  {
+    "id": 202,
+    "text": "Trust the journey, even when the path seems uncertain.",
+    "category": "motivational"
+  },
+  {
+    "id": 203,
+    "text": "Your strength lies in your ability to adapt and overcome.",
+    "category": "motivational"
+  },
+  {
+    "id": 204,
+    "text": "Good things come to those who radiate positivity.",
+    "category": "motivational"
+  },
+  {
+    "id": 205,
+    "text": "You are a magnet for abundance and prosperity.",
+    "category": "motivational"
+  },
+  {
+    "id": 206,
+    "text": "Chase your dreams fearlessly; success is inevitable.",
+    "category": "motivational"
+  },
+  {
+    "id": 207,
+    "text": "Happiness is a choice; choose it every single day.",
+    "category": "motivational"
+  },
+  {
+    "id": 208,
+    "text": "Embrace challenges as opportunities for growth and learning.",
+    "category": "motivational"
+  },
+  {
+    "id": 209,
+    "text": "Your positive outlook will attract wonderful opportunities.",
+    "category": "motivational"
+  },
+  {
+    "id": 210,
+    "text": "Confidence is your best accessory; wear it proudly.",
+    "category": "motivational"
+  },
+  {
+    "id": 211,
+    "text": "The universe conspires to help those with pure intentions.",
+    "category": "motivational"
+  },
+  {
+    "id": 212,
+    "text": "Your resilience in tough times will lead to brighter days.",
+    "category": "motivational"
+  },
+  {
+    "id": 213,
+    "text": "Every small step you take brings you closer to your goals.",
+    "category": "motivational"
+  },
+  {
+    "id": 214,
+    "text": "Your presence has the power to uplift and inspire others.",
+    "category": "motivational"
+  },
+  {
+    "id": 215,
+    "text": "Success is not a destination but a rewarding journey.",
+    "category": "motivational"
+  },
+  {
+    "id": 216,
+    "text": "Your potential knows no bounds; believe in yourself always.",
+    "category": "motivational"
+  },
+  {
+    "id": 217,
+    "text": "Radiate love and watch it come back to you tenfold.",
+    "category": "motivational"
+  },
+  {
+    "id": 218,
+    "text": "You are capable of achieving anything you set your mind to.",
+    "category": "motivational"
+  },
+  {
+    "id": 219,
+    "text": "Believe in the power of your dreams; they will come true.",
+    "category": "motivational"
+  },
+  {
+    "id": 220,
+    "text": "Your determination will bring you closer to your desires.",
+    "category": "motivational"
+  },
+  {
+    "id": 221,
+    "text": "Stay focused on the present; the future is bright.",
+    "category": "motivational"
+  },
+  {
+    "id": 222,
+    "text": "Keep your heart open; love and success will follow.",
+    "category": "motivational"
+  },
+  {
+    "id": 223,
+    "text": "Every challenge you face makes you stronger and wiser.",
+    "category": "motivational"
+  },
+  {
+    "id": 224,
+    "text": "Your actions today shape the reality of tomorrow.",
+    "category": "motivational"
+  },
+  {
+    "id": 225,
+    "text": "Your positive attitude will lead to endless possibilities.",
+    "category": "motivational"
+  },
+  {
+    "id": 226,
+    "text": "The energy you put out into the world comes back to you.",
+    "category": "motivational"
+  },
+  {
+    "id": 227,
+    "text": "You are a beacon of light in a world that needs it.",
+    "category": "motivational"
+  },
+  {
+    "id": 228,
+    "text": "Your potential for greatness is boundless; keep reaching.",
+    "category": "motivational"
+  },
+  {
+    "id": 229,
+    "text": "Trust in yourself, for you hold the key to your success.",
+    "category": "motivational"
+  },
+  {
+    "id": 230,
+    "text": "Your journey is unique and beautiful; embrace every moment.",
+    "category": "motivational"
+  },
+  {
+    "id": 231,
+    "text": "Kindness is a gift that keeps on giving; spread it generously.",
+    "category": "motivational"
+  },
+  {
+    "id": 232,
+    "text": "In every obstacle lies an opportunity for growth and success.",
+    "category": "motivational"
+  },
+  {
+    "id": 233,
+    "text": "Your courage and resilience will lead you to victory.",
+    "category": "motivational"
+  },
+  {
+    "id": 234,
+    "text": "Stay true to your values; they guide you to greatness.",
+    "category": "motivational"
+  },
+  {
+    "id": 235,
+    "text": "Success is not defined by others but by your own journey.",
+    "category": "motivational"
+  },
+  {
+    "id": 236,
+    "text": "You have the power to create the life of your dreams.",
+    "category": "motivational"
+  },
+  {
+    "id": 237,
+    "text": "Your positivity is contagious; spread it wherever you go.",
+    "category": "motivational"
+  },
+  {
+    "id": 238,
+    "text": "Believe in the magic of new beginnings; they lead to greatness.",
+    "category": "motivational"
+  },
+  {
+    "id": 239,
+    "text": "Your kindness and compassion make the world a better place.",
+    "category": "motivational"
+  },
+  {
+    "id": 240,
+    "text": "The universe supports your journey to achieve your dreams.",
+    "category": "motivational"
+  },
+  {
+    "id": 241,
+    "text": "Believe in yourself, for you are capable of remarkable things.",
+    "category": "motivational"
+  },
+  {
+    "id": 242,
+    "text": "Your perseverance will lead you to great achievements.",
+    "category": "motivational"
+  },
+  {
+    "id": 243,
+    "text": "Embrace change, for it brings new opportunities for growth.",
+    "category": "motivational"
+  },
+  {
+    "id": 244,
+    "text": "You have the power to create the life you desire.",
+    "category": "motivational"
+  },
+  {
+    "id": 245,
+    "text": "Every setback is a setup for a major comeback.",
+    "category": "motivational"
+  },
+  {
+    "id": 246,
+    "text": "Your passion and determination will pave the way for success.",
+    "category": "motivational"
+  },
+  {
+    "id": 247,
+    "text": "Opportunities are abundant for those who seek them with an open heart.",
+    "category": "motivational"
+  },
+  {
+    "id": 248,
+    "text": "Trust in the process, for everything is unfolding as it should.",
+    "category": "motivational"
+  },
+  {
+    "id": 249,
+    "text": "Radiate positivity, and you will attract abundance into your life.",
+    "category": "motivational"
+  },
+  {
+    "id": 250,
+    "text": "Every day is a new chance to make a positive impact.",
+    "category": "motivational"
+  },
+  {
+    "id": 251,
+    "text": "Your hard work will pay off in unexpected and wonderful ways.",
+    "category": "motivational"
+  },
+  {
+    "id": 252,
+    "text": "Stay true to yourself, for authenticity is your superpower.",
+    "category": "motivational"
+  },
+  {
+    "id": 253,
+    "text": "Embrace challenges as opportunities to showcase your strengths.",
+    "category": "motivational"
+  },
+  {
+    "id": 254,
+    "text": "Your positive energy will ignite the light in others.",
+    "category": "motivational"
+  },
+  {
+    "id": 255,
+    "text": "Kindness is the key that unlocks doors to endless possibilities.",
+    "category": "motivational"
+  },
+  {
+    "id": 256,
+    "text": "Success is not a destination but a journey of continuous growth.",
+    "category": "motivational"
+  },
+  {
+    "id": 257,
+    "text": "You are surrounded by love, light, and endless blessings.",
+    "category": "motivational"
+  },
+  {
+    "id": 258,
+    "text": "The universe is conspiring to bring you joy and abundance.",
+    "category": "motivational"
+  },
+  {
+    "id": 259,
+    "text": "Stay focused on your goals, for you are closer than you think.",
+    "category": "motivational"
+  },
+  {
+    "id": 260,
+    "text": "Your potential is limitless; believe in your abilities.",
+    "category": "motivational"
+  },
+  {
+    "id": 261,
+    "text": "The world is full of infinite possibilities waiting for you to explore.",
+    "category": "motivational"
+  },
+  {
+    "id": 262,
+    "text": "Gratitude opens the door to more blessings in your life.",
+    "category": "motivational"
+  },
+  {
+    "id": 263,
+    "text": "Your resilience in the face of adversity is truly admirable.",
+    "category": "motivational"
+  },
+  {
+    "id": 264,
+    "text": "Stay fearless in the pursuit of your dreams; they are within reach.",
+    "category": "motivational"
+  },
+  {
+    "id": 265,
+    "text": "Your positivity is a magnet for miracles and happiness.",
+    "category": "motivational"
+  },
+  {
+    "id": 266,
+    "text": "Embrace each day with a grateful heart and watch miracles unfold.",
+    "category": "motivational"
+  },
+  {
+    "id": 267,
+    "text": "You are a beacon of light, shining brightly in the world.",
+    "category": "motivational"
+  },
+  {
+    "id": 268,
+    "text": "Your unique gifts are meant to be shared with the world.",
+    "category": "motivational"
+  },
+  {
+    "id": 269,
+    "text": "Trust in the journey, for every step forward is progress.",
+    "category": "motivational"
+  },
+  {
+    "id": 270,
+    "text": "Live in the present moment; it holds the key to true happiness.",
+    "category": "motivational"
+  },
+  {
+    "id": 271,
+    "text": "Believe in yourself – you are capable of amazing things.",
+    "category": "general"
+  },
+  {
+    "id": 272,
+    "text": "Your positive energy attracts success and happiness.",
+    "category": "general"
+  },
+  {
+    "id": 273,
+    "text": "Embrace change, for it brings new opportunities and growth.",
+    "category": "general"
+  },
+  {
+    "id": 274,
+    "text": "Kindness is a gift that continues to spread goodness.",
+    "category": "general"
+  },
+  {
+    "id": 275,
+    "text": "Your resilience will lead you to triumph over obstacles.",
+    "category": "general"
+  },
+  {
+    "id": 276,
+    "text": "Love and laughter will fill your days with joy.",
+    "category": "general"
+  },
+  {
+    "id": 277,
+    "text": "Every setback is a setup for a greater comeback.",
+    "category": "general"
+  },
+  {
+    "id": 278,
+    "text": "Your dreams are within reach – keep reaching for them.",
+    "category": "general"
+  },
+  {
+    "id": 279,
+    "text": "Patience and persistence pave the path to success.",
+    "category": "general"
+  },
+  {
+    "id": 280,
+    "text": "Gratitude opens the door to abundance in your life.",
+    "category": "general"
+  },
+  {
+    "id": 281,
+    "text": "Your optimism shines bright, illuminating the darkest paths.",
+    "category": "general"
+  },
+  {
+    "id": 282,
+    "text": "Wisdom comes from embracing both success and failure.",
+    "category": "general"
+  },
+  {
+    "id": 283,
+    "text": "Your positive attitude will bring you many blessings.",
+    "category": "general"
+  },
+  {
+    "id": 284,
+    "text": "Inner peace is found in acceptance of what cannot be changed.",
+    "category": "general"
+  },
+  {
+    "id": 285,
+    "text": "Trust in your abilities – you are stronger than you know.",
+    "category": "general"
+  },
+  {
+    "id": 286,
+    "text": "Good things come to those who believe in the good.",
+    "category": "general"
+  },
+  {
+    "id": 287,
+    "text": "You are a beacon of light in the darkness – shine on.",
+    "category": "general"
+  },
+  {
+    "id": 288,
+    "text": "Success is the sum of small efforts repeated daily.",
+    "category": "general"
+  },
+  {
+    "id": 289,
+    "text": "Forgiveness liberates your soul from the weight of anger.",
+    "category": "general"
+  },
+  {
+    "id": 290,
+    "text": "Your journey is unique – embrace the twists and turns.",
+    "category": "general"
+  },
+  {
+    "id": 291,
+    "text": "Take risks – great adventures await the brave-hearted.",
+    "category": "general"
+  },
+  {
+    "id": 292,
+    "text": "Your potential is limitless – dare to dream big.",
+    "category": "general"
+  },
+  {
+    "id": 293,
+    "text": "Happiness is found in appreciating life's simple joys.",
+    "category": "general"
+  },
+  {
+    "id": 294,
+    "text": "Let go of what no longer serves you – make room for growth.",
+    "category": "general"
+  },
+  {
+    "id": 295,
+    "text": "Your kind heart will always guide you to happiness.",
+    "category": "general"
+  },
+  {
+    "id": 296,
+    "text": "Believe in the power of your dreams – they are valid.",
+    "category": "general"
+  },
+  {
+    "id": 297,
+    "text": "Peace of mind comes from living in the present moment.",
+    "category": "general"
+  },
+  {
+    "id": 298,
+    "text": "Challenges make you stronger and wiser – embrace them.",
+    "category": "general"
+  },
+  {
+    "id": 299,
+    "text": "Your positive words create ripples of kindness in the world.",
+    "category": "general"
+  },
+  {
+    "id": 300,
+    "text": "Joy is contagious – spread it wherever you go.",
+    "category": "general"
+  },
+  {
+    "id": 301,
+    "text": "You radiate warmth and light – illuminate the world.",
+    "category": "general"
+  },
+  {
+    "id": 302,
+    "text": "Every day is a fresh start – make it count.",
+    "category": "general"
+  },
+  {
+    "id": 303,
+    "text": "Your kindness will spark a chain reaction of goodness.",
+    "category": "general"
+  },
+  {
+    "id": 304,
+    "text": "Courage is the key that unlocks your greatest potential.",
+    "category": "general"
+  },
+  {
+    "id": 305,
+    "text": "Your inner strength is a force to be reckoned with.",
+    "category": "general"
+  },
+  {
+    "id": 306,
+    "text": "Embrace the beauty of imperfection – it is uniquely yours.",
+    "category": "general"
+  },
+  {
+    "id": 307,
+    "text": "The universe conspires to bring you all you desire.",
+    "category": "general"
+  },
+  {
+    "id": 308,
+    "text": "Your heart knows the way – trust in its guidance.",
+    "category": "general"
+  },
+  {
+    "id": 309,
+    "text": "Success is not a destination but a journey of growth.",
+    "category": "general"
+  },
+  {
+    "id": 310,
+    "text": "Laughter is the music of the soul – play it often.",
+    "category": "general"
+  },
+  {
+    "id": 311,
+    "text": "You are a magnet for love, kindness, and abundance.",
+    "category": "general"
+  },
+  {
+    "id": 312,
+    "text": "Your positive thoughts manifest into reality – choose wisely.",
+    "category": "general"
+  },
+  {
+    "id": 313,
+    "text": "Kindness is a language that everyone understands.",
+    "category": "general"
+  },
+  {
+    "id": 314,
+    "text": "Life is a gift – cherish each moment with gratitude.",
+    "category": "general"
+  },
+  {
+    "id": 315,
+    "text": "Your future is bright with endless possibilities.",
+    "category": "general"
+  },
+  {
+    "id": 316,
+    "text": "Every ending is a new beginning in disguise – embrace it.",
+    "category": "general"
+  },
+  {
+    "id": 317,
+    "text": "Believe in yourself – you are worthy of all good things.",
+    "category": "general"
+  },
+  {
+    "id": 318,
+    "text": "Believe in yourself and watch miracles unfold.",
+    "category": "general"
+  },
+  {
+    "id": 319,
+    "text": "Happiness blooms where kindness is planted.",
+    "category": "general"
+  },
+  {
+    "id": 320,
+    "text": "Embrace change, for it leads to growth.",
+    "category": "general"
+  },
+  {
+    "id": 321,
+    "text": "Your positivity is a beacon to others.",
+    "category": "general"
+  },
+  {
+    "id": 322,
+    "text": "Good things come to those who work for it.",
+    "category": "general"
+  },
+  {
+    "id": 323,
+    "text": "Love is the greatest adventure of all.",
+    "category": "general"
+  },
+  {
+    "id": 324,
+    "text": "Your smile can brighten someone's day.",
+    "category": "general"
+  },
+  {
+    "id": 325,
+    "text": "Kindness is the language of the soul.",
+    "category": "general"
+  },
+  {
+    "id": 326,
+    "text": "Trust the journey, the best is yet to come.",
+    "category": "general"
+  },
+  {
+    "id": 327,
+    "text": "Your potential is limitless, reach for the stars.",
+    "category": "general"
+  },
+  {
+    "id": 328,
+    "text": "Forgiveness frees the heart from burdens.",
+    "category": "general"
+  },
+  {
+    "id": 329,
+    "text": "Worry less, smile more, love abundantly.",
+    "category": "general"
+  },
+  {
+    "id": 330,
+    "text": "Spread joy like confetti wherever you go.",
+    "category": "general"
+  },
+  {
+    "id": 331,
+    "text": "Your uniqueness is your greatest strength.",
+    "category": "general"
+  },
+  {
+    "id": 332,
+    "text": "Success is the sum of small efforts repeated.",
+    "category": "general"
+  },
+  {
+    "id": 333,
+    "text": "The world needs the light only you can shine.",
+    "category": "general"
+  },
+  {
+    "id": 334,
+    "text": "Dreams are the blueprints of a brighter future.",
+    "category": "general"
+  },
+  {
+    "id": 335,
+    "text": "Compassion is the key to true connection.",
+    "category": "general"
+  },
+  {
+    "id": 336,
+    "text": "You are capable of amazing things, believe it.",
+    "category": "general"
+  },
+  {
+    "id": 337,
+    "text": "Every setback is a setup for a comeback.",
+    "category": "general"
+  },
+  {
+    "id": 338,
+    "text": "Your kindness will leave a lasting legacy.",
+    "category": "general"
+  },
+  {
+    "id": 339,
+    "text": "Cherish today, for it is a gift.",
+    "category": "general"
+  },
+  {
+    "id": 340,
+    "text": "Radiate positivity, attract boundless joy.",
+    "category": "general"
+  },
+  {
+    "id": 341,
+    "text": "Patience is the key to unlocking doors of opportunity.",
+    "category": "general"
+  },
+  {
+    "id": 342,
+    "text": "Hope is the anchor of the soul in rough seas.",
+    "category": "general"
+  },
+  {
+    "id": 343,
+    "text": "In every challenge lies an opportunity for growth.",
+    "category": "general"
+  },
+  {
+    "id": 344,
+    "text": "Gratitude turns what we have into enough.",
+    "category": "general"
+  },
+  {
+    "id": 345,
+    "text": "The universe applauds your courage to be yourself.",
+    "category": "general"
+  },
+  {
+    "id": 346,
+    "text": "You are a masterpiece in progress, embrace it.",
+    "category": "general"
+  },
+  {
+    "id": 347,
+    "text": "Your potential is like a seed waiting to bloom.",
+    "category": "general"
+  },
+  {
+    "id": 348,
+    "text": "Love is the answer to all questions.",
+    "category": "general"
+  },
+  {
+    "id": 349,
+    "text": "Your heart knows the way, follow it bravely.",
+    "category": "general"
+  },
+  {
+    "id": 350,
+    "text": "Every step you take brings you closer to success.",
+    "category": "general"
+  },
+  {
+    "id": 351,
+    "text": "Embrace your uniqueness, it's your superpower.",
+    "category": "general"
+  },
+  {
+    "id": 352,
+    "text": "Every sunrise brings new possibilities.",
+    "category": "general"
+  },
+  {
+    "id": 353,
+    "text": "Kind words can heal the deepest wounds.",
+    "category": "general"
+  },
+  {
+    "id": 354,
+    "text": "Success is the sum of small efforts repeated daily.",
+    "category": "general"
+  },
+  {
+    "id": 355,
+    "text": "Your light shines brightest in moments of darkness.",
+    "category": "general"
+  },
+  {
+    "id": 356,
+    "text": "May your days be filled with laughter and love.",
+    "category": "general"
+  },
+  {
+    "id": 357,
+    "text": "The journey of a thousand miles begins with a single step.",
+    "category": "general"
+  },
+  {
+    "id": 358,
+    "text": "Dreams are the compass guiding you to your destiny.",
+    "category": "general"
+  },
+  {
+    "id": 359,
+    "text": "Love is the only currency that truly enriches.",
+    "category": "general"
+  },
+  {
+    "id": 360,
+    "text": "Your dreams are the whispers of your soul calling you.",
+    "category": "general"
+  },
+  {
+    "id": 361,
+    "text": "Your presence is a present to the world.",
+    "category": "general"
+  },
+  {
+    "id": 362,
+    "text": "Every act of kindness ripples through eternity.",
+    "category": "general"
+  },
+  {
+    "id": 363,
+    "text": "Life is a canvas, paint it with vibrant colors.",
+    "category": "general"
+  },
+  {
+    "id": 364,
+    "text": "Opportunities are endless for those who dare to dream.",
+    "category": "general"
+  },
+  {
+    "id": 365,
+    "text": "Every experience teaches a valuable lesson.",
+    "category": "general"
+  },
+  {
+    "id": 366,
+    "text": "Gratitude opens doors to abundance and joy.",
+    "category": "general"
+  },
+  {
+    "id": 367,
+    "text": "Embrace change, it leads to growth and new opportunities.",
+    "category": "general"
+  },
+  {
+    "id": 368,
+    "text": "Believe in yourself, miracles happen when you least expect them.",
+    "category": "general"
+  },
+  {
+    "id": 369,
+    "text": "Your positive attitude will attract abundance and joy into your life.",
+    "category": "general"
+  },
+  {
+    "id": 370,
+    "text": "Kindness is a language that everyone understands, speak it often.",
+    "category": "general"
+  },
+  {
+    "id": 371,
+    "text": "The world is full of endless possibilities waiting for you to explore.",
+    "category": "general"
+  },
+  {
+    "id": 372,
+    "text": "Your creativity knows no bounds, let it guide you to greatness.",
+    "category": "general"
+  },
+  {
+    "id": 373,
+    "text": "Every day is a chance to start anew, make it count.",
+    "category": "general"
+  },
+  {
+    "id": 374,
+    "text": "Opportunities are like sunrises, seize them before they fade away.",
+    "category": "general"
+  },
+  {
+    "id": 375,
+    "text": "Trust the journey, the best is yet to come.",
+    "category": "general"
+  },
+  {
+    "id": 376,
+    "text": "Your smile is a ray of sunshine that brightens someone's day.",
+    "category": "general"
+  },
+  {
+    "id": 377,
+    "text": "Love and kindness are the keys that unlock all doors.",
+    "category": "general"
+  },
+  {
+    "id": 378,
+    "text": "Success is the sum of small efforts repeated day in and day out.",
+    "category": "general"
+  },
+  {
+    "id": 379,
+    "text": "Your potential is limitless, believe in the power within you.",
+    "category": "general"
+  },
+  {
+    "id": 380,
+    "text": "Spread love and positivity, the world needs your light.",
+    "category": "general"
+  },
+  {
+    "id": 381,
+    "text": "Embrace challenges as stepping stones to greatness.",
+    "category": "general"
+  },
+  {
+    "id": 382,
+    "text": "Every setback is a setup for a major comeback.",
+    "category": "general"
+  },
+  {
+    "id": 383,
+    "text": "The universe is conspiring to bring you endless blessings.",
+    "category": "general"
+  },
+  {
+    "id": 384,
+    "text": "Let go of what holds you back, embrace what propels you forward.",
+    "category": "general"
+  },
+  {
+    "id": 385,
+    "text": "Your energy is a magnet for all good things in life.",
+    "category": "general"
+  },
+  {
+    "id": 386,
+    "text": "Dream big, work hard, stay focused, and achieve greatness.",
+    "category": "general"
+  },
+  {
+    "id": 387,
+    "text": "In the sea of life, let your positive vibes create ripples of change.",
+    "category": "general"
+  },
+  {
+    "id": 388,
+    "text": "Listen to your heart, for it knows your true desires.",
+    "category": "general"
+  },
+  {
+    "id": 389,
+    "text": "Your strength and resilience will carry you through any storm.",
+    "category": "general"
+  },
+  {
+    "id": 390,
+    "text": "Celebrate your small victories, they pave the way to big successes.",
+    "category": "general"
+  },
+  {
+    "id": 391,
+    "text": "Believe in the magic of new beginnings, they hold endless possibilities.",
+    "category": "general"
+  },
+  {
+    "id": 392,
+    "text": "The world is a canvas, paint your life with vibrant colors.",
+    "category": "general"
+  },
+  {
+    "id": 393,
+    "text": "Your kindness will leave a lasting imprint on the world.",
+    "category": "general"
+  },
+  {
+    "id": 394,
+    "text": "Stay true to yourself, your authenticity is your superpower.",
+    "category": "general"
+  },
+  {
+    "id": 395,
+    "text": "Embrace the journey, for within it lies your greatest lessons and joys.",
+    "category": "general"
+  },
+  {
+    "id": 396,
+    "text": "Embrace change, for it leads to growth and new opportunities.",
+    "category": "wisdom"
+  },
+  {
+    "id": 397,
+    "text": "Your resilience will carry you through any storm that comes your way.",
+    "category": "wisdom"
+  },
+  {
+    "id": 398,
+    "text": "Believe in the power of your dreams, for they hold great potential.",
+    "category": "wisdom"
+  },
+  {
+    "id": 399,
+    "text": "Love and kindness are the keys to unlocking true happiness in life.",
+    "category": "wisdom"
+  },
+  {
+    "id": 400,
+    "text": "Courageously face your fears, for they are stepping stones to success.",
+    "category": "wisdom"
+  },
+  {
+    "id": 401,
+    "text": "Trust in your abilities, for you are capable of achieving greatness.",
+    "category": "wisdom"
+  },
+  {
+    "id": 402,
+    "text": "Every setback is a setup for a major comeback in your life.",
+    "category": "wisdom"
+  },
+  {
+    "id": 403,
+    "text": "Gratitude opens doors to abundance and brings joy into your heart.",
+    "category": "wisdom"
+  },
+  {
+    "id": 404,
+    "text": "Seek the beauty in every moment, for it is where true happiness lies.",
+    "category": "wisdom"
+  },
+  {
+    "id": 405,
+    "text": "Your positive attitude is a magnet for good things to come.",
+    "category": "wisdom"
+  },
+  {
+    "id": 406,
+    "text": "Forgiveness frees your soul and paves the way for inner peace.",
+    "category": "wisdom"
+  },
+  {
+    "id": 407,
+    "text": "You are a beacon of light, shining brightly in the world.",
+    "category": "wisdom"
+  },
+  {
+    "id": 408,
+    "text": "Embrace challenges as opportunities to showcase your strength and resilience.",
+    "category": "wisdom"
+  },
+  {
+    "id": 409,
+    "text": "Your inner wisdom will guide you to make the right decisions.",
+    "category": "wisdom"
+  },
+  {
+    "id": 410,
+    "text": "Spread love and watch it multiply in the most unexpected ways.",
+    "category": "wisdom"
+  },
+  {
+    "id": 411,
+    "text": "You possess the power to create the life of your dreams.",
+    "category": "wisdom"
+  },
+  {
+    "id": 412,
+    "text": "Your kindness will create ripples of positivity in the world.",
+    "category": "wisdom"
+  },
+  {
+    "id": 413,
+    "text": "Cherish the present moment, for it is a gift filled with possibilities.",
+    "category": "wisdom"
+  },
+  {
+    "id": 414,
+    "text": "Your perseverance will lead you to great achievements.",
+    "category": "wisdom"
+  },
+  {
+    "id": 415,
+    "text": "In every ending, there is a new beginning waiting to unfold.",
+    "category": "wisdom"
+  },
+  {
+    "id": 416,
+    "text": "Embrace your uniqueness, for it is what makes you truly special.",
+    "category": "wisdom"
+  },
+  {
+    "id": 417,
+    "text": "Your journey is uniquely yours, embrace it with an open heart.",
+    "category": "wisdom"
+  },
+  {
+    "id": 418,
+    "text": "Believe in yourself, for you are capable of achieving the impossible.",
+    "category": "wisdom"
+  },
+  {
+    "id": 419,
+    "text": "Trust the process, for every challenge has a valuable lesson to teach.",
+    "category": "wisdom"
+  },
+  {
+    "id": 420,
+    "text": "Your optimism will attract abundant blessings into your life.",
+    "category": "wisdom"
+  },
+  {
+    "id": 421,
+    "text": "The universe is conspiring in your favor, trust in its plan for you.",
+    "category": "wisdom"
+  },
+  {
+    "id": 422,
+    "text": "You are the architect of your destiny; build a life you love.",
+    "category": "wisdom"
+  },
+  {
+    "id": 423,
+    "text": "Radiate positivity and watch how it transforms the world around you.",
+    "category": "wisdom"
+  },
+  {
+    "id": 424,
+    "text": "Your potential is limitless; believe in yourself and anything is possible.",
+    "category": "wisdom"
+  },
+  {
+    "id": 425,
+    "text": "Let gratitude be your daily practice, and watch how it transforms your life.",
+    "category": "wisdom"
+  },
+  {
+    "id": 426,
+    "text": "Your journey may have twists and turns, but each step leads to growth.",
+    "category": "wisdom"
+  },
+  {
+    "id": 427,
+    "text": "Your journey is unfolding perfectly, trust in the process of life.",
+    "category": "wisdom"
+  },
+  {
+    "id": 428,
+    "text": "Your strength lies in your ability to rise after every fall.",
+    "category": "wisdom"
+  },
+  {
+    "id": 429,
+    "text": "Be the light in someone's darkness and watch how it illuminates both your paths.",
+    "category": "wisdom"
+  },
+  {
+    "id": 430,
+    "text": "Embrace the unknown, for it is where miracles often unfold.",
+    "category": "wisdom"
+  },
+  {
+    "id": 431,
+    "text": "Your presence in this world matters; shine bright and inspire others.",
+    "category": "wisdom"
+  },
+  {
+    "id": 432,
+    "text": "Love is the greatest gift you can give and receive, cherish it always.",
+    "category": "wisdom"
+  },
+  {
+    "id": 433,
+    "text": "Your positive energy is contagious; spread it wherever you go.",
+    "category": "wisdom"
+  },
+  {
+    "id": 434,
+    "text": "Believe in miracles, for they happen every day in the most unexpected ways.",
+    "category": "wisdom"
+  },
+  {
+    "id": 435,
+    "text": "Stay true to yourself, for your authenticity is your greatest strength.",
+    "category": "wisdom"
+  },
+  {
+    "id": 436,
+    "text": "Every setback is a setup for a comeback; keep pushing forward.",
+    "category": "wisdom"
+  },
+  {
+    "id": 437,
+    "text": "Your potential is limitless, dare to dream big and reach for the stars.",
+    "category": "wisdom"
+  },
+  {
+    "id": 438,
+    "text": "Choose happiness every day, for it is a powerful act of self-love.",
+    "category": "wisdom"
+  },
+  {
+    "id": 439,
+    "text": "Your kindness will be returned to you tenfold; spread love generously.",
+    "category": "wisdom"
+  },
+  {
+    "id": 440,
+    "text": "Within you lies a reservoir of strength and resilience; tap into it.",
+    "category": "wisdom"
+  },
+  {
+    "id": 441,
+    "text": "The universe is aligning in your favor; trust in its divine timing.",
+    "category": "wisdom"
+  },
+  {
+    "id": 442,
+    "text": "Your journey is unique; embrace the detours, for they lead to growth.",
+    "category": "wisdom"
+  },
+  {
+    "id": 443,
+    "text": "You are a masterpiece in progress; embrace your flaws and imperfections.",
+    "category": "wisdom"
+  },
+  {
+    "id": 444,
+    "text": "Gratitude unlocks the fullness of life; practice it daily and watch miracles unfold.",
+    "category": "wisdom"
+  },
+  {
+    "id": 445,
+    "text": "Embrace change, for it leads to growth and new opportunities.",
+    "category": "wisdom"
+  },
+  {
+    "id": 446,
+    "text": "Your positive energy attracts abundance and joy into your life.",
+    "category": "wisdom"
+  },
+  {
+    "id": 447,
+    "text": "Believe in yourself, for your potential is limitless.",
+    "category": "wisdom"
+  },
+  {
+    "id": 448,
+    "text": "Kindness is a gift that keeps on giving.",
+    "category": "wisdom"
+  },
+  {
+    "id": 449,
+    "text": "Open your heart to love, and watch miracles unfold.",
+    "category": "wisdom"
+  },
+  {
+    "id": 450,
+    "text": "Happiness is found within, embrace it fully.",
+    "category": "wisdom"
+  },
+  {
+    "id": 451,
+    "text": "Trust your intuition—it will guide you to great things.",
+    "category": "wisdom"
+  },
+  {
+    "id": 452,
+    "text": "The universe is conspiring to bring you success and happiness.",
+    "category": "wisdom"
+  },
+  {
+    "id": 453,
+    "text": "Gratitude opens the doors to abundance and blessings.",
+    "category": "wisdom"
+  },
+  {
+    "id": 454,
+    "text": "Your journey may be tough, but your spirit is tougher.",
+    "category": "wisdom"
+  },
+  {
+    "id": 455,
+    "text": "Every setback is a setup for a major comeback.",
+    "category": "wisdom"
+  },
+  {
+    "id": 456,
+    "text": "Spread joy wherever you go—it's contagious.",
+    "category": "wisdom"
+  },
+  {
+    "id": 457,
+    "text": "Forgiveness is liberating; let go of past grievances.",
+    "category": "wisdom"
+  },
+  {
+    "id": 458,
+    "text": "You are a beacon of light in a world that needs it.",
+    "category": "wisdom"
+  },
+  {
+    "id": 459,
+    "text": "Dream big, work hard, and miracles will happen.",
+    "category": "wisdom"
+  },
+  {
+    "id": 460,
+    "text": "Love yourself unconditionally, for you are worthy.",
+    "category": "wisdom"
+  },
+  {
+    "id": 461,
+    "text": "Your positive attitude will lead to great achievements.",
+    "category": "wisdom"
+  },
+  {
+    "id": 462,
+    "text": "Every challenge you face makes you stronger and wiser.",
+    "category": "wisdom"
+  },
+  {
+    "id": 463,
+    "text": "The universe applauds your bravery in pursuing your dreams.",
+    "category": "wisdom"
+  },
+  {
+    "id": 464,
+    "text": "Your potential for success is limitless—believe in yourself.",
+    "category": "wisdom"
+  },
+  {
+    "id": 465,
+    "text": "Stay true to your values; they will guide you to victory.",
+    "category": "wisdom"
+  },
+  {
+    "id": 466,
+    "text": "Great things take time; be patient and persistent.",
+    "category": "wisdom"
+  },
+  {
+    "id": 467,
+    "text": "Radiate positivity, and watch your life transform.",
+    "category": "wisdom"
+  },
+  {
+    "id": 468,
+    "text": "You are a magnet for miracles and blessings.",
+    "category": "wisdom"
+  },
+  {
+    "id": 469,
+    "text": "Your thoughts create your reality—choose them wisely.",
+    "category": "wisdom"
+  },
+  {
+    "id": 470,
+    "text": "Your past does not define you; your actions do.",
+    "category": "wisdom"
+  },
+  {
+    "id": 471,
+    "text": "Courage is the key that unlocks your greatest potential.",
+    "category": "wisdom"
+  },
+  {
+    "id": 472,
+    "text": "Gratitude turns what you have into more than enough.",
+    "category": "wisdom"
+  },
+  {
+    "id": 473,
+    "text": "Your inner strength is a powerful force for good.",
+    "category": "wisdom"
+  },
+  {
+    "id": 474,
+    "text": "Embrace the unknown, for it holds hidden treasures.",
+    "category": "wisdom"
+  },
+  {
+    "id": 475,
+    "text": "Your kindness will make a difference in someone's life today.",
+    "category": "wisdom"
+  },
+  {
+    "id": 476,
+    "text": "Success is not a destination, but a journey of growth.",
+    "category": "wisdom"
+  },
+  {
+    "id": 477,
+    "text": "Your perseverance will lead you to great triumphs.",
+    "category": "wisdom"
+  },
+  {
+    "id": 478,
+    "text": "Love is the answer to all of life's questions.",
+    "category": "wisdom"
+  },
+  {
+    "id": 479,
+    "text": "You are destined for greatness—embrace it.",
+    "category": "wisdom"
+  },
+  {
+    "id": 480,
+    "text": "Believe in miracles, and you will witness them unfold.",
+    "category": "wisdom"
+  },
+  {
+    "id": 481,
+    "text": "Your heart knows the way; trust its guidance.",
+    "category": "wisdom"
+  },
+  {
+    "id": 482,
+    "text": "Every moment is a chance to start anew—embrace it.",
+    "category": "wisdom"
+  },
+  {
+    "id": 483,
+    "text": "Your optimism is a beacon of hope for those around you.",
+    "category": "wisdom"
+  },
+  {
+    "id": 484,
+    "text": "Your dreams are the blueprints for your future reality.",
+    "category": "wisdom"
+  },
+  {
+    "id": 485,
+    "text": "The world is brighter because of your presence in it.",
+    "category": "wisdom"
+  },
+  {
+    "id": 486,
+    "text": "Your journey is unique and beautiful—embrace it fully.",
+    "category": "wisdom"
+  },
+  {
+    "id": 487,
+    "text": "Every step you take brings you closer to your dreams.",
+    "category": "wisdom"
+  },
+  {
+    "id": 488,
+    "text": "Your positive mindset attracts positive outcomes.",
+    "category": "wisdom"
+  },
+  {
+    "id": 489,
+    "text": "Kindness is the language that all hearts understand.",
+    "category": "wisdom"
+  },
+  {
+    "id": 490,
+    "text": "Your authenticity is your greatest strength; embrace it.",
+    "category": "wisdom"
+  },
+  {
+    "id": 491,
+    "text": "Your creativity knows no bounds—let it soar.",
+    "category": "wisdom"
+  },
+  {
+    "id": 492,
+    "text": "Success is the sum of small efforts repeated daily.",
+    "category": "wisdom"
+  },
+  {
+    "id": 493,
+    "text": "Every experience, positive or negative, shapes your path.",
+    "category": "wisdom"
+  },
+  {
+    "id": 494,
+    "text": "Your potential is like a seed; nurture it to grow.",
+    "category": "wisdom"
+  },
+  {
+    "id": 495,
+    "text": "Embrace each moment with gratitude and joy.",
+    "category": "wisdom"
+  },
+  {
+    "id": 496,
+    "text": "Believe in yourself, for you are capable of greatness.",
+    "category": "wisdom"
+  },
+  {
+    "id": 497,
+    "text": "Kindness is a language that everyone understands.",
+    "category": "wisdom"
+  },
+  {
+    "id": 498,
+    "text": "Your potential is limitless; let your light shine.",
+    "category": "wisdom"
+  },
+  {
+    "id": 499,
+    "text": "Opportunities are abundant for those who seek them.",
+    "category": "wisdom"
+  },
+  {
+    "id": 500,
+    "text": "Every setback is a setup for a comeback.",
+    "category": "wisdom"
+  },
+  {
+    "id": 501,
+    "text": "Spread love and watch it bloom in beautiful ways.",
+    "category": "wisdom"
+  },
+  {
+    "id": 502,
+    "text": "Stay true to yourself; authenticity is magnetic.",
+    "category": "wisdom"
+  },
+  {
+    "id": 503,
+    "text": "Your journey is unique; embrace every step of it.",
+    "category": "wisdom"
+  },
+  {
+    "id": 504,
+    "text": "Believe in the power of your dreams; they are yours.",
+    "category": "wisdom"
+  },
+  {
+    "id": 505,
+    "text": "Ripples of kindness create waves of positivity.",
+    "category": "wisdom"
+  },
+  {
+    "id": 506,
+    "text": "Stay open to new experiences; magic awaits.",
+    "category": "wisdom"
+  },
+  {
+    "id": 507,
+    "text": "Your resilience will pave the way to success.",
+    "category": "wisdom"
+  },
+  {
+    "id": 508,
+    "text": "Every day is a fresh canvas; paint it vibrant.",
+    "category": "wisdom"
+  },
+  {
+    "id": 509,
+    "text": "Radiate positivity, and watch it reflect back to you.",
+    "category": "wisdom"
+  },
+  {
+    "id": 510,
+    "text": "Inner peace is found by embracing the present moment.",
+    "category": "wisdom"
+  },
+  {
+    "id": 511,
+    "text": "Your smile is a beacon of light in darkness.",
+    "category": "wisdom"
+  },
+  {
+    "id": 512,
+    "text": "Trust in the universe's plan for your happiness.",
+    "category": "wisdom"
+  },
+  {
+    "id": 513,
+    "text": "Challenges make you stronger; embrace them bravely.",
+    "category": "wisdom"
+  },
+  {
+    "id": 514,
+    "text": "Your potential for growth is limitless; keep reaching.",
+    "category": "wisdom"
+  },
+  {
+    "id": 515,
+    "text": "Sow seeds of kindness, reap fields of joy.",
+    "category": "wisdom"
+  },
+  {
+    "id": 516,
+    "text": "Every ending is a new beginning in disguise.",
+    "category": "wisdom"
+  },
+  {
+    "id": 517,
+    "text": "Listen to your inner voice; it whispers wisdom.",
+    "category": "wisdom"
+  },
+  {
+    "id": 518,
+    "text": "Your journey is guided by the stars above.",
+    "category": "wisdom"
+  },
+  {
+    "id": 519,
+    "text": "Believe in the power of small acts of kindness.",
+    "category": "wisdom"
+  },
+  {
+    "id": 520,
+    "text": "Embrace each moment with gratitude; it holds the key to joy.",
+    "category": "wisdom"
+  },
+  {
+    "id": 521,
+    "text": "Believe in yourself, success is just around the corner.",
+    "category": "success"
+  },
+  {
+    "id": 522,
+    "text": "Your hard work will pay off beyond your wildest dreams.",
+    "category": "success"
+  },
+  {
+    "id": 523,
+    "text": "Embrace challenges as stepping stones to your success.",
+    "category": "success"
+  },
+  {
+    "id": 524,
+    "text": "Your determination will lead you to great accomplishments.",
+    "category": "success"
+  },
+  {
+    "id": 525,
+    "text": "Success is the result of perseverance and a positive attitude.",
+    "category": "success"
+  },
+  {
+    "id": 526,
+    "text": "Opportunities will come knocking; be ready to seize them.",
+    "category": "success"
+  },
+  {
+    "id": 527,
+    "text": "Your potential is limitless; keep striving for greatness.",
+    "category": "success"
+  },
+  {
+    "id": 528,
+    "text": "Embrace change, for it brings new avenues to success.",
+    "category": "success"
+  },
+  {
+    "id": 529,
+    "text": "You are destined for greatness; keep aiming high.",
+    "category": "success"
+  },
+  {
+    "id": 530,
+    "text": "Your success story is just waiting to be written.",
+    "category": "success"
+  },
+  {
+    "id": 531,
+    "text": "Trust in your abilities; success is within your reach.",
+    "category": "success"
+  },
+  {
+    "id": 532,
+    "text": "Stay focused on your goals; success is inevitable.",
+    "category": "success"
+  },
+  {
+    "id": 533,
+    "text": "Your positive mindset attracts abundance and success.",
+    "category": "success"
+  },
+  {
+    "id": 534,
+    "text": "Great success comes to those who dare to dream big.",
+    "category": "success"
+  },
+  {
+    "id": 535,
+    "text": "Believe in the magic of new beginnings; success awaits.",
+    "category": "success"
+  },
+  {
+    "id": 536,
+    "text": "Your hard work will pave the way to success and prosperity.",
+    "category": "success"
+  },
+  {
+    "id": 537,
+    "text": "Success is the sum of small efforts repeated daily.",
+    "category": "success"
+  },
+  {
+    "id": 538,
+    "text": "Embrace challenges as opportunities for growth and success.",
+    "category": "success"
+  },
+  {
+    "id": 539,
+    "text": "You have the power to turn your dreams into reality.",
+    "category": "success"
+  },
+  {
+    "id": 540,
+    "text": "Success is not a destination, but a rewarding journey.",
+    "category": "success"
+  },
+  {
+    "id": 541,
+    "text": "Your persistence will open doors to endless possibilities.",
+    "category": "success"
+  },
+  {
+    "id": 542,
+    "text": "Every setback brings you closer to a major comeback.",
+    "category": "success"
+  },
+  {
+    "id": 543,
+    "text": "Your success is a reflection of your inner strength.",
+    "category": "success"
+  },
+  {
+    "id": 544,
+    "text": "The path to success is paved with determination and resilience.",
+    "category": "success"
+  },
+  {
+    "id": 545,
+    "text": "Your positive energy attracts incredible opportunities.",
+    "category": "success"
+  },
+  {
+    "id": 546,
+    "text": "You have the skills and talent to achieve anything you desire.",
+    "category": "success"
+  },
+  {
+    "id": 547,
+    "text": "Setbacks are stepping stones to your ultimate success.",
+    "category": "success"
+  },
+  {
+    "id": 548,
+    "text": "Success is the sweet fruit of hard work and dedication.",
+    "category": "success"
+  },
+  {
+    "id": 549,
+    "text": "Believe in yourself; you are capable of amazing things.",
+    "category": "success"
+  },
+  {
+    "id": 550,
+    "text": "Your perseverance will lead you to extraordinary success.",
+    "category": "success"
+  },
+  {
+    "id": 551,
+    "text": "The universe is conspiring to bring you immense success.",
+    "category": "success"
+  },
+  {
+    "id": 552,
+    "text": "Success is the outcome of your unwavering faith in yourself.",
+    "category": "success"
+  },
+  {
+    "id": 553,
+    "text": "Every accomplishment starts with the decision to try.",
+    "category": "success"
+  },
+  {
+    "id": 554,
+    "text": "Your persistence will unlock the doors to prosperity.",
+    "category": "success"
+  },
+  {
+    "id": 555,
+    "text": "Success is not measured by wealth, but by inner fulfillment.",
+    "category": "success"
+  },
+  {
+    "id": 556,
+    "text": "Embrace challenges with a fearless heart; success will follow.",
+    "category": "success"
+  },
+  {
+    "id": 557,
+    "text": "Your optimism shines brightly, guiding you to success.",
+    "category": "success"
+  },
+  {
+    "id": 558,
+    "text": "You are the architect of your own successful destiny.",
+    "category": "success"
+  },
+  {
+    "id": 559,
+    "text": "Your positive outlook will attract success like a magnet.",
+    "category": "success"
+  },
+  {
+    "id": 560,
+    "text": "Good things come to those who work hard and stay positive.",
+    "category": "success"
+  },
+  {
+    "id": 561,
+    "text": "Success is the sum of small efforts repeated daily.",
+    "category": "success"
+  },
+  {
+    "id": 562,
+    "text": "Believe in yourself, for you are capable of greatness.",
+    "category": "success"
+  },
+  {
+    "id": 563,
+    "text": "Your journey to success begins with a single step forward.",
+    "category": "success"
+  },
+  {
+    "id": 564,
+    "text": "Your potential for success is limitless; keep pushing forward.",
+    "category": "success"
+  },
+  {
+    "id": 565,
+    "text": "Stay focused on your goals; success will meet you halfway.",
+    "category": "success"
+  },
+  {
+    "id": 566,
+    "text": "Success is the result of your unwavering belief in yourself.",
+    "category": "success"
+  },
+  {
+    "id": 567,
+    "text": "Your dreams are the blueprints for your successful future.",
+    "category": "success"
+  },
+  {
+    "id": 568,
+    "text": "In every challenge lies an opportunity for great success.",
+    "category": "success"
+  },
+  {
+    "id": 569,
+    "text": "Your dedication and hard work will lead you to triumph.",
+    "category": "success"
+  },
+  {
+    "id": 570,
+    "text": "Your hard work will lead you to great accomplishments.",
+    "category": "success"
+  },
+  {
+    "id": 571,
+    "text": "Believe in yourself, for you are destined for greatness.",
+    "category": "success"
+  },
+  {
+    "id": 572,
+    "text": "Every setback is a setup for a major comeback.",
+    "category": "success"
+  },
+  {
+    "id": 573,
+    "text": "Your success is only limited by your imagination.",
+    "category": "success"
+  },
+  {
+    "id": 574,
+    "text": "Seize every opportunity that comes your way with confidence.",
+    "category": "success"
+  },
+  {
+    "id": 575,
+    "text": "Your determination will pave the way to success.",
+    "category": "success"
+  },
+  {
+    "id": 576,
+    "text": "Success is a journey, not a destination - enjoy the ride.",
+    "category": "success"
+  },
+  {
+    "id": 577,
+    "text": "Embrace challenges as stepping stones to success.",
+    "category": "success"
+  },
+  {
+    "id": 578,
+    "text": "Your persistence will pay off in unexpected ways.",
+    "category": "success"
+  },
+  {
+    "id": 579,
+    "text": "Success is the sum of small efforts repeated daily.",
+    "category": "success"
+  },
+  {
+    "id": 580,
+    "text": "Keep your eyes on the stars, and success will follow.",
+    "category": "success"
+  },
+  {
+    "id": 581,
+    "text": "You hold the key to unlock a future full of success.",
+    "category": "success"
+  },
+  {
+    "id": 582,
+    "text": "Your dreams are the blueprints for your future success.",
+    "category": "success"
+  },
+  {
+    "id": 583,
+    "text": "With hard work and dedication, success is inevitable.",
+    "category": "success"
+  },
+  {
+    "id": 584,
+    "text": "Success is not just about the destination but the journey.",
+    "category": "success"
+  },
+  {
+    "id": 585,
+    "text": "Your positive mindset will attract abundance and success.",
+    "category": "success"
+  },
+  {
+    "id": 586,
+    "text": "Believe in yourself, and success will surely follow.",
+    "category": "success"
+  },
+  {
+    "id": 587,
+    "text": "Your success story is still being written - keep going.",
+    "category": "success"
+  },
+  {
+    "id": 588,
+    "text": "Great things come to those who are patient and persistent.",
+    "category": "success"
+  },
+  {
+    "id": 589,
+    "text": "Every accomplishment starts with the decision to try.",
+    "category": "success"
+  },
+  {
+    "id": 590,
+    "text": "Your relentless spirit will lead you to success.",
+    "category": "success"
+  },
+  {
+    "id": 591,
+    "text": "The universe is conspiring to bring you success.",
+    "category": "success"
+  },
+  {
+    "id": 592,
+    "text": "Success is the harvest of seeds planted with hard work.",
+    "category": "success"
+  },
+  {
+    "id": 593,
+    "text": "Your success is the result of your daily habits.",
+    "category": "success"
+  },
+  {
+    "id": 594,
+    "text": "Your success is a reflection of your inner strength.",
+    "category": "success"
+  },
+  {
+    "id": 595,
+    "text": "You are capable of achieving anything you set your mind to.",
+    "category": "success"
+  },
+  {
+    "id": 596,
+    "text": "Success is not measured by wealth but by fulfillment.",
+    "category": "success"
+  },
+  {
+    "id": 597,
+    "text": "Trust your journey, success is waiting just around the corner.",
+    "category": "success"
+  },
+  {
+    "id": 598,
+    "text": "Your potential for success is limitless - believe in yourself.",
+    "category": "success"
+  },
+  {
+    "id": 599,
+    "text": "Every step you take leads you closer to success.",
+    "category": "success"
+  },
+  {
+    "id": 600,
+    "text": "Embrace challenges as opportunities to grow and succeed.",
+    "category": "success"
+  },
+  {
+    "id": 601,
+    "text": "Success is the sweetest when it's been hard-earned.",
+    "category": "success"
+  },
+  {
+    "id": 602,
+    "text": "Your determination will be the key to your success.",
+    "category": "success"
+  },
+  {
+    "id": 603,
+    "text": "Success is not about being perfect but being persistent.",
+    "category": "success"
+  },
+  {
+    "id": 604,
+    "text": "Your future holds infinite possibilities for success.",
+    "category": "success"
+  },
+  {
+    "id": 605,
+    "text": "Your positive energy attracts success like a magnet.",
+    "category": "success"
+  },
+  {
+    "id": 606,
+    "text": "Believe in your abilities, and success will follow suit.",
+    "category": "success"
+  },
+  {
+    "id": 607,
+    "text": "The road to success is paved with determination and persistence.",
+    "category": "success"
+  },
+  {
+    "id": 608,
+    "text": "Success is not a destination but a continuous journey.",
+    "category": "success"
+  },
+  {
+    "id": 609,
+    "text": "Your success is a reflection of your inner resilience.",
+    "category": "success"
+  },
+  {
+    "id": 610,
+    "text": "Hard work, dedication, and belief lead to great success.",
+    "category": "success"
+  },
+  {
+    "id": 611,
+    "text": "Every obstacle you overcome brings you closer to success.",
+    "category": "success"
+  },
+  {
+    "id": 612,
+    "text": "Success is the result of your daily actions and choices.",
+    "category": "success"
+  },
+  {
+    "id": 613,
+    "text": "Your success is written in the stars - keep reaching for them.",
+    "category": "success"
+  },
+  {
+    "id": 614,
+    "text": "Your potential for success is as vast as the ocean.",
+    "category": "success"
+  },
+  {
+    "id": 615,
+    "text": "Success is not the absence of failure but the persistence through it.",
+    "category": "success"
+  },
+  {
+    "id": 616,
+    "text": "Your success is a reflection of the greatness within you.",
+    "category": "success"
+  },
+  {
+    "id": 617,
+    "text": "Every effort you put in now will pay off in success later.",
+    "category": "success"
+  },
+  {
+    "id": 618,
+    "text": "Believe in your dreams, for they hold the key to your success.",
+    "category": "success"
+  },
+  {
+    "id": 619,
+    "text": "Your journey to success starts with a single step - keep going.",
+    "category": "success"
+  },
+  {
+    "id": 620,
+    "text": "Believe in yourself, for you hold the key to success.",
+    "category": "success"
+  },
+  {
+    "id": 621,
+    "text": "Opportunities are plentiful for those with positive attitudes.",
+    "category": "success"
+  },
+  {
+    "id": 622,
+    "text": "Your hard work and determination will lead to great success.",
+    "category": "success"
+  },
+  {
+    "id": 623,
+    "text": "Embrace challenges as stepping stones to your success story.",
+    "category": "success"
+  },
+  {
+    "id": 624,
+    "text": "Success is around the corner; keep moving forward with optimism.",
+    "category": "success"
+  },
+  {
+    "id": 625,
+    "text": "Your potential for success is limitless; trust in yourself.",
+    "category": "success"
+  },
+  {
+    "id": 626,
+    "text": "Celebrate your small victories; they pave the way to success.",
+    "category": "success"
+  },
+  {
+    "id": 627,
+    "text": "Success is not a destination, but a journey of growth.",
+    "category": "success"
+  },
+  {
+    "id": 628,
+    "text": "Your positive actions will lead to prosperous outcomes.",
+    "category": "success"
+  },
+  {
+    "id": 629,
+    "text": "Believe in your abilities, for greatness lies within you.",
+    "category": "success"
+  },
+  {
+    "id": 630,
+    "text": "Success is the result of persistence and unwavering faith.",
+    "category": "success"
+  },
+  {
+    "id": 631,
+    "text": "Embrace uncertainty, for it leads to unexpected success.",
+    "category": "success"
+  },
+  {
+    "id": 632,
+    "text": "Stay focused on your goals; success is within reach.",
+    "category": "success"
+  },
+  {
+    "id": 633,
+    "text": "Your resilience will guide you to triumph in all endeavors.",
+    "category": "success"
+  },
+  {
+    "id": 634,
+    "text": "Believe in the power of your dreams; success will follow.",
+    "category": "success"
+  },
+  {
+    "id": 635,
+    "text": "Success blooms where positivity and hard work are planted.",
+    "category": "success"
+  },
+  {
+    "id": 636,
+    "text": "Your positive mindset attracts abundance and success.",
+    "category": "success"
+  },
+  {
+    "id": 637,
+    "text": "Embrace change; it brings new opportunities for success.",
+    "category": "success"
+  },
+  {
+    "id": 638,
+    "text": "Great success awaits those who dare to chase their dreams.",
+    "category": "success"
+  },
+  {
+    "id": 639,
+    "text": "Your determination will pave the path to your success.",
+    "category": "success"
+  },
+  {
+    "id": 640,
+    "text": "Success is not measured by perfection but by progress.",
+    "category": "success"
+  },
+  {
+    "id": 641,
+    "text": "Continue to strive for excellence; success is inevitable.",
+    "category": "success"
+  },
+  {
+    "id": 642,
+    "text": "Believe in the beauty of your dreams; they will come true.",
+    "category": "success"
+  },
+  {
+    "id": 643,
+    "text": "Your success story is waiting to be written; start today.",
+    "category": "success"
+  },
+  {
+    "id": 644,
+    "text": "Believe in yourself, success is already on its way to you.",
+    "category": "success"
+  },
+  {
+    "id": 645,
+    "text": "Your dedication and hard work will lead you to great success.",
+    "category": "success"
+  },
+  {
+    "id": 646,
+    "text": "Embrace each moment with a heart full of gratitude.",
+    "category": "happiness"
+  },
+  {
+    "id": 647,
+    "text": "Your happiness is a reflection of your positive thoughts.",
+    "category": "happiness"
+  },
+  {
+    "id": 648,
+    "text": "Radiate kindness, and watch how it brightens your world.",
+    "category": "happiness"
+  },
+  {
+    "id": 649,
+    "text": "Joy is found in the simplest pleasures of life.",
+    "category": "happiness"
+  },
+  {
+    "id": 650,
+    "text": "Peace of mind comes from within, nurture it daily.",
+    "category": "happiness"
+  },
+  {
+    "id": 651,
+    "text": "Your smile is contagious, spread it liberally.",
+    "category": "happiness"
+  },
+  {
+    "id": 652,
+    "text": "Celebrate your uniqueness, it is your superpower.",
+    "category": "happiness"
+  },
+  {
+    "id": 653,
+    "text": "Love and laughter are the best medicine for the soul.",
+    "category": "happiness"
+  },
+  {
+    "id": 654,
+    "text": "Savor the sweetness of today's blessings.",
+    "category": "happiness"
+  },
+  {
+    "id": 655,
+    "text": "Happiness blooms where kindness is planted.",
+    "category": "happiness"
+  },
+  {
+    "id": 656,
+    "text": "Your positivity attracts endless possibilities.",
+    "category": "happiness"
+  },
+  {
+    "id": 657,
+    "text": "Believe in yourself, for you are capable of greatness.",
+    "category": "happiness"
+  },
+  {
+    "id": 658,
+    "text": "Every day is a chance to create your own sunshine.",
+    "category": "happiness"
+  },
+  {
+    "id": 659,
+    "text": "Find joy in the journey, not just the destination.",
+    "category": "happiness"
+  },
+  {
+    "id": 660,
+    "text": "Spread love like confetti and watch it multiply.",
+    "category": "happiness"
+  },
+  {
+    "id": 661,
+    "text": "Let your light shine brightly for all to see.",
+    "category": "happiness"
+  },
+  {
+    "id": 662,
+    "text": "Live in the now, for it is where true happiness resides.",
+    "category": "happiness"
+  },
+  {
+    "id": 663,
+    "text": "Your heart knows the way to true happiness, follow it.",
+    "category": "happiness"
+  },
+  {
+    "id": 664,
+    "text": "Embrace change with a spirit of optimism and growth.",
+    "category": "happiness"
+  },
+  {
+    "id": 665,
+    "text": "Sow seeds of kindness and reap a garden of joy.",
+    "category": "happiness"
+  },
+  {
+    "id": 666,
+    "text": "Dance to the rhythm of your own happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 667,
+    "text": "Believe in the magic of new beginnings.",
+    "category": "happiness"
+  },
+  {
+    "id": 668,
+    "text": "Your happiness is a gift to be shared with others.",
+    "category": "happiness"
+  },
+  {
+    "id": 669,
+    "text": "Cherish the simple moments that bring you joy.",
+    "category": "happiness"
+  },
+  {
+    "id": 670,
+    "text": "Your positive energy attracts abundance in all forms.",
+    "category": "happiness"
+  },
+  {
+    "id": 671,
+    "text": "Embrace the beauty of imperfection, for it is human.",
+    "category": "happiness"
+  },
+  {
+    "id": 672,
+    "text": "Choose joy every day, no matter the circumstances.",
+    "category": "happiness"
+  },
+  {
+    "id": 673,
+    "text": "Find peace in the stillness of your own being.",
+    "category": "happiness"
+  },
+  {
+    "id": 674,
+    "text": "Your happiness is a reflection of your inner peace.",
+    "category": "happiness"
+  },
+  {
+    "id": 675,
+    "text": "In every moment, choose love over fear.",
+    "category": "happiness"
+  },
+  {
+    "id": 676,
+    "text": "Dream big, for your potential is limitless.",
+    "category": "happiness"
+  },
+  {
+    "id": 677,
+    "text": "Let go of what no longer serves your happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 678,
+    "text": "The key to happiness lies in gratitude and kindness.",
+    "category": "happiness"
+  },
+  {
+    "id": 679,
+    "text": "You are a magnet for all things good and beautiful.",
+    "category": "happiness"
+  },
+  {
+    "id": 680,
+    "text": "Be the reason someone smiles today.",
+    "category": "happiness"
+  },
+  {
+    "id": 681,
+    "text": "Your happiness is a beacon of light to others.",
+    "category": "happiness"
+  },
+  {
+    "id": 682,
+    "text": "Trust in the journey, for it is uniquely yours.",
+    "category": "happiness"
+  },
+  {
+    "id": 683,
+    "text": "Embrace the unknown with a heart full of courage.",
+    "category": "happiness"
+  },
+  {
+    "id": 684,
+    "text": "Your positivity is a powerful force for good.",
+    "category": "happiness"
+  },
+  {
+    "id": 685,
+    "text": "Believe in the magic of new beginnings.",
+    "category": "happiness"
+  },
+  {
+    "id": 686,
+    "text": "Celebrate your wins, no matter how small.",
+    "category": "happiness"
+  },
+  {
+    "id": 687,
+    "text": "Your happiness is a choice, make it wisely.",
+    "category": "happiness"
+  },
+  {
+    "id": 688,
+    "text": "Open your heart to the endless possibilities of joy.",
+    "category": "happiness"
+  },
+  {
+    "id": 689,
+    "text": "Dwell in possibility and watch your dreams unfold.",
+    "category": "happiness"
+  },
+  {
+    "id": 690,
+    "text": "The universe conspires to bring you joy and happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 691,
+    "text": "Your journey is uniquely yours, embrace it fully.",
+    "category": "happiness"
+  },
+  {
+    "id": 692,
+    "text": "Let love guide your actions and happiness will follow.",
+    "category": "happiness"
+  },
+  {
+    "id": 693,
+    "text": "Embrace the beauty of the present moment.",
+    "category": "happiness"
+  },
+  {
+    "id": 694,
+    "text": "Embrace joy, it's your natural state of being.",
+    "category": "happiness"
+  },
+  {
+    "id": 695,
+    "text": "Happiness blooms where kindness is planted.",
+    "category": "happiness"
+  },
+  {
+    "id": 696,
+    "text": "Your laughter brightens the world around you.",
+    "category": "happiness"
+  },
+  {
+    "id": 697,
+    "text": "Smile often, it's your secret superpower.",
+    "category": "happiness"
+  },
+  {
+    "id": 698,
+    "text": "Peace of mind is your greatest treasure.",
+    "category": "happiness"
+  },
+  {
+    "id": 699,
+    "text": "Your positivity attracts endless possibilities.",
+    "category": "happiness"
+  },
+  {
+    "id": 700,
+    "text": "Dance like nobody's watching, happiness follows.",
+    "category": "happiness"
+  },
+  {
+    "id": 701,
+    "text": "Love is the key to unlocking true happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 702,
+    "text": "Sunshine follows even the smallest spark of joy.",
+    "category": "happiness"
+  },
+  {
+    "id": 703,
+    "text": "Joy is found in the simplest of moments.",
+    "category": "happiness"
+  },
+  {
+    "id": 704,
+    "text": "Radiate happiness, watch it reflect back to you.",
+    "category": "happiness"
+  },
+  {
+    "id": 705,
+    "text": "Every day is a fresh opportunity for happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 706,
+    "text": "Cherish moments of joy, they're truly precious.",
+    "category": "happiness"
+  },
+  {
+    "id": 707,
+    "text": "Happiness is the music of the heart.",
+    "category": "happiness"
+  },
+  {
+    "id": 708,
+    "text": "Spread happiness like confetti wherever you go.",
+    "category": "happiness"
+  },
+  {
+    "id": 709,
+    "text": "Your happiness is a gift to the world.",
+    "category": "happiness"
+  },
+  {
+    "id": 710,
+    "text": "Find happiness in the journey, not just the destination.",
+    "category": "happiness"
+  },
+  {
+    "id": 711,
+    "text": "Choose happiness, it's always the right decision.",
+    "category": "happiness"
+  },
+  {
+    "id": 712,
+    "text": "Embrace the beauty of a joyful heart.",
+    "category": "happiness"
+  },
+  {
+    "id": 713,
+    "text": "Gratitude is the gateway to happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 714,
+    "text": "Let your happiness be contagious.",
+    "category": "happiness"
+  },
+  {
+    "id": 715,
+    "text": "Your happiness radiates from within.",
+    "category": "happiness"
+  },
+  {
+    "id": 716,
+    "text": "Every day is a new chance to find happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 717,
+    "text": "Happiness is a state of mind, choose it daily.",
+    "category": "happiness"
+  },
+  {
+    "id": 718,
+    "text": "Allow happiness to be your guiding light.",
+    "category": "happiness"
+  },
+  {
+    "id": 719,
+    "text": "Your smile lights up the world around you.",
+    "category": "happiness"
+  },
+  {
+    "id": 720,
+    "text": "Happiness is the compass of a fulfilled life.",
+    "category": "happiness"
+  },
+  {
+    "id": 721,
+    "text": "Joy is the magic ingredient of a happy life.",
+    "category": "happiness"
+  },
+  {
+    "id": 722,
+    "text": "Your happiness is a reflection of your soul.",
+    "category": "happiness"
+  },
+  {
+    "id": 723,
+    "text": "In every moment, choose happiness over worry.",
+    "category": "happiness"
+  },
+  {
+    "id": 724,
+    "text": "Find joy in the ordinary, it's extraordinary.",
+    "category": "happiness"
+  },
+  {
+    "id": 725,
+    "text": "The key to happiness is gratitude and kindness.",
+    "category": "happiness"
+  },
+  {
+    "id": 726,
+    "text": "Happiness is the harmony of heart and soul.",
+    "category": "happiness"
+  },
+  {
+    "id": 727,
+    "text": "Your happiness is a work of heart.",
+    "category": "happiness"
+  },
+  {
+    "id": 728,
+    "text": "Look for happiness in the smallest of things.",
+    "category": "happiness"
+  },
+  {
+    "id": 729,
+    "text": "Joy is the echo of God’s life within us.",
+    "category": "happiness"
+  },
+  {
+    "id": 730,
+    "text": "May your days be filled with boundless joy.",
+    "category": "happiness"
+  },
+  {
+    "id": 731,
+    "text": "Kindness is the gateway to happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 732,
+    "text": "Happy thoughts breed a happy life.",
+    "category": "happiness"
+  },
+  {
+    "id": 733,
+    "text": "Let your heart be a garden of happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 734,
+    "text": "A happy heart is a magnet for miracles.",
+    "category": "happiness"
+  },
+  {
+    "id": 735,
+    "text": "Happiness is the best kind of wealth.",
+    "category": "happiness"
+  },
+  {
+    "id": 736,
+    "text": "In joy, there's strength beyond measure.",
+    "category": "happiness"
+  },
+  {
+    "id": 737,
+    "text": "Your happiness is your most valuable possession.",
+    "category": "happiness"
+  },
+  {
+    "id": 738,
+    "text": "May your days be painted with happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 739,
+    "text": "Happiness is the art of living in the present.",
+    "category": "happiness"
+  },
+  {
+    "id": 740,
+    "text": "Let happiness be your constant companion.",
+    "category": "happiness"
+  },
+  {
+    "id": 741,
+    "text": "True happiness is found within, seek it there.",
+    "category": "happiness"
+  },
+  {
+    "id": 742,
+    "text": "Happiness blooms within when you appreciate the little moments.",
+    "category": "happiness"
+  },
+  {
+    "id": 743,
+    "text": "Your smile is a beacon of light for those around you.",
+    "category": "happiness"
+  },
+  {
+    "id": 744,
+    "text": "Joy is found in acts of kindness, both given and received.",
+    "category": "happiness"
+  },
+  {
+    "id": 745,
+    "text": "Every day is a chance to create your own sunshine.",
+    "category": "happiness"
+  },
+  {
+    "id": 746,
+    "text": "Love and laughter are the keys to a joyful heart.",
+    "category": "happiness"
+  },
+  {
+    "id": 747,
+    "text": "Good vibes attract good things—keep shining bright!",
+    "category": "happiness"
+  },
+  {
+    "id": 748,
+    "text": "Embrace each day with gratitude, and watch happiness grow.",
+    "category": "happiness"
+  },
+  {
+    "id": 749,
+    "text": "Seek moments of joy in the simple pleasures of life.",
+    "category": "happiness"
+  },
+  {
+    "id": 750,
+    "text": "Your happiness is a reflection of your beautiful soul.",
+    "category": "happiness"
+  },
+  {
+    "id": 751,
+    "text": "Spread happiness like confetti and watch it multiply.",
+    "category": "happiness"
+  },
+  {
+    "id": 752,
+    "text": "Let positivity be your guide to a fulfilling life.",
+    "category": "happiness"
+  },
+  {
+    "id": 753,
+    "text": "The secret to happiness lies in embracing your uniqueness.",
+    "category": "happiness"
+  },
+  {
+    "id": 754,
+    "text": "In every moment, choose joy as your guiding light.",
+    "category": "happiness"
+  },
+  {
+    "id": 755,
+    "text": "Radiate happiness, and you'll light up the world around you.",
+    "category": "happiness"
+  },
+  {
+    "id": 756,
+    "text": "Your happiness is a gift—cherish it every day.",
+    "category": "happiness"
+  },
+  {
+    "id": 757,
+    "text": "May your heart be a garden blooming with happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 758,
+    "text": "Celebrate the journey, not just the destination, for true joy.",
+    "category": "happiness"
+  },
+  {
+    "id": 759,
+    "text": "Kindness is the bridge to a heart full of happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 760,
+    "text": "Fill your days with laughter, and watch joy blossom.",
+    "category": "happiness"
+  },
+  {
+    "id": 761,
+    "text": "Live with a heart full of gratitude, and happiness will follow.",
+    "category": "happiness"
+  },
+  {
+    "id": 762,
+    "text": "Find peace in knowing that happiness is a choice you make.",
+    "category": "happiness"
+  },
+  {
+    "id": 763,
+    "text": "Your happiness is a treasure; keep it safe and share it freely.",
+    "category": "happiness"
+  },
+  {
+    "id": 764,
+    "text": "Let the music of life fill your soul with happiness.",
+    "category": "happiness"
+  },
+  {
+    "id": 765,
+    "text": "True happiness is found in the beauty of simplicity.",
+    "category": "happiness"
+  },
+  {
+    "id": 766,
+    "text": "Embrace the present moment, for that is where happiness resides.",
+    "category": "happiness"
+  },
+  {
+    "id": 767,
+    "text": "Keep your face always toward the sunshine—find joy in every day.",
+    "category": "happiness"
+  },
+  {
+    "id": 768,
+    "text": "May your life be a canvas painted with happiness and love.",
+    "category": "happiness"
+  },
+  {
+    "id": 769,
+    "text": "The key to unlocking happiness lies within your own heart.",
+    "category": "happiness"
+  },
+  {
+    "id": 770,
+    "text": "Embrace each moment with gratitude, for happiness lies within your heart.",
+    "category": "happiness"
+  },
+  {
+    "id": 771,
+    "text": "Embrace fear and watch courage flourish within you.",
+    "category": "courage"
+  },
+  {
+    "id": 772,
+    "text": "Every step forward is a triumph of your bravery.",
+    "category": "courage"
+  },
+  {
+    "id": 773,
+    "text": "Believe in yourself, for courage is your superpower.",
+    "category": "courage"
+  },
+  {
+    "id": 774,
+    "text": "Your courage shines brightest in the face of adversity.",
+    "category": "courage"
+  },
+  {
+    "id": 775,
+    "text": "In every challenge, find the courage to soar higher.",
+    "category": "courage"
+  },
+  {
+    "id": 776,
+    "text": "Courage is the whisper that says, \"You can do it.\"",
+    "category": "courage"
+  },
+  {
+    "id": 777,
+    "text": "Let your inner warrior guide you through tough times.",
+    "category": "courage"
+  },
+  {
+    "id": 778,
+    "text": "Be bold, for courage is the key to unlocking doors.",
+    "category": "courage"
+  },
+  {
+    "id": 779,
+    "text": "Your bravery today shapes your success tomorrow.",
+    "category": "courage"
+  },
+  {
+    "id": 780,
+    "text": "Courage is not the absence of fear, but triumph over it.",
+    "category": "courage"
+  },
+  {
+    "id": 781,
+    "text": "Strength grows in the moments when you dare to be brave.",
+    "category": "courage"
+  },
+  {
+    "id": 782,
+    "text": "Courage is the fire that ignites your wildest dreams.",
+    "category": "courage"
+  },
+  {
+    "id": 783,
+    "text": "Rise up with courage and conquer your fears.",
+    "category": "courage"
+  },
+  {
+    "id": 784,
+    "text": "A heart filled with courage knows no limits.",
+    "category": "courage"
+  },
+  {
+    "id": 785,
+    "text": "Brave souls create their own paths to greatness.",
+    "category": "courage"
+  },
+  {
+    "id": 786,
+    "text": "Dare to be extraordinary; courage is your ally.",
+    "category": "courage"
+  },
+  {
+    "id": 787,
+    "text": "Embrace challenges with courage; victory awaits.",
+    "category": "courage"
+  },
+  {
+    "id": 788,
+    "text": "In courage, you find the power to move mountains.",
+    "category": "courage"
+  },
+  {
+    "id": 789,
+    "text": "Courage transforms struggles into stepping stones to success.",
+    "category": "courage"
+  },
+  {
+    "id": 790,
+    "text": "Your courage inspires others to believe in themselves.",
+    "category": "courage"
+  },
+  {
+    "id": 791,
+    "text": "Let your courage be the lighthouse in life's stormy seas.",
+    "category": "courage"
+  },
+  {
+    "id": 792,
+    "text": "Within you lies the courage to achieve the impossible.",
+    "category": "courage"
+  },
+  {
+    "id": 793,
+    "text": "Bravery is not the absence of fear but the triumph over it.",
+    "category": "courage"
+  },
+  {
+    "id": 794,
+    "text": "Courage is the compass that guides you to your dreams.",
+    "category": "courage"
+  },
+  {
+    "id": 795,
+    "text": "May your courage be as boundless as the sky above.",
+    "category": "courage"
+  },
+  {
+    "id": 796,
+    "text": "Stand tall in the face of fear; courage is your shield.",
+    "category": "courage"
+  },
+  {
+    "id": 797,
+    "text": "The path to greatness is paved with courage and determination.",
+    "category": "courage"
+  },
+  {
+    "id": 798,
+    "text": "Your courage is the beacon that leads you through the dark.",
+    "category": "courage"
+  },
+  {
+    "id": 799,
+    "text": "With courage as your compass, you can conquer any storm.",
+    "category": "courage"
+  },
+  {
+    "id": 800,
+    "text": "Courage is the fuel that propels you towards your dreams.",
+    "category": "courage"
+  },
+  {
+    "id": 801,
+    "text": "Dare to be different, for courage breeds uniqueness.",
+    "category": "courage"
+  },
+  {
+    "id": 802,
+    "text": "May your courage be as unshakeable as the mountains.",
+    "category": "courage"
+  },
+  {
+    "id": 803,
+    "text": "In courage, you discover the depths of your strength.",
+    "category": "courage"
+  },
+  {
+    "id": 804,
+    "text": "Risk it all, for courage knows no bounds.",
+    "category": "courage"
+  },
+  {
+    "id": 805,
+    "text": "In the realm of courage, you are boundless.",
+    "category": "courage"
+  },
+  {
+    "id": 806,
+    "text": "May your courage be the wind beneath your wings.",
+    "category": "courage"
+  },
+  {
+    "id": 807,
+    "text": "With each challenge, your courage grows stronger.",
+    "category": "courage"
+  },
+  {
+    "id": 808,
+    "text": "Courage is the bridge that spans the gap between dreams and reality.",
+    "category": "courage"
+  },
+  {
+    "id": 809,
+    "text": "Let courage be your guide on the path to greatness.",
+    "category": "courage"
+  },
+  {
+    "id": 810,
+    "text": "The bravest hearts are forged in the hottest fires.",
+    "category": "courage"
+  },
+  {
+    "id": 811,
+    "text": "Do not fear failure, for courage is your safety net.",
+    "category": "courage"
+  },
+  {
+    "id": 812,
+    "text": "Your courage lights the path for others to follow.",
+    "category": "courage"
+  },
+  {
+    "id": 813,
+    "text": "May your courage be as radiant as the morning sun.",
+    "category": "courage"
+  },
+  {
+    "id": 814,
+    "text": "Boldness is your companion on the journey to success.",
+    "category": "courage"
+  },
+  {
+    "id": 815,
+    "text": "Trust in your courage, for it holds the key to your destiny.",
+    "category": "courage"
+  },
+  {
+    "id": 816,
+    "text": "Your bravery today paves the way for a brighter tomorrow.",
+    "category": "courage"
+  },
+  {
+    "id": 817,
+    "text": "In courage, you find the strength to face any challenge.",
+    "category": "courage"
+  },
+  {
+    "id": 818,
+    "text": "The greatest victories are born out of courage and determination.",
+    "category": "courage"
+  },
+  {
+    "id": 819,
+    "text": "May your courage be your greatest asset in all endeavors.",
+    "category": "courage"
+  },
+  {
+    "id": 820,
+    "text": "Embrace your fears, for courage lies within you.",
+    "category": "courage"
+  },
+  {
+    "id": 821,
+    "text": "Believe in yourself, for you are stronger than you know.",
+    "category": "courage"
+  },
+  {
+    "id": 822,
+    "text": "Every step you take with courage paves the path to success.",
+    "category": "courage"
+  },
+  {
+    "id": 823,
+    "text": "Courage is not the absence of fear, but the triumph over it.",
+    "category": "courage"
+  },
+  {
+    "id": 824,
+    "text": "Boldness has genius, power, and magic in it—go forth bravely.",
+    "category": "courage"
+  },
+  {
+    "id": 825,
+    "text": "When you face adversity with courage, you unlock your true strength.",
+    "category": "courage"
+  },
+  {
+    "id": 826,
+    "text": "Dare to dream big and act boldly—greatness awaits you.",
+    "category": "courage"
+  },
+  {
+    "id": 827,
+    "text": "In the face of uncertainty, your courage will light the way.",
+    "category": "courage"
+  },
+  {
+    "id": 828,
+    "text": "Your bravery in times of challenge will lead to triumph.",
+    "category": "courage"
+  },
+  {
+    "id": 829,
+    "text": "With courage as your compass, you can conquer any storm.",
+    "category": "courage"
+  },
+  {
+    "id": 830,
+    "text": "Strength grows in the moments when you think you can't go on.",
+    "category": "courage"
+  },
+  {
+    "id": 831,
+    "text": "Be fearless in the pursuit of what sets your soul on fire.",
+    "category": "courage"
+  },
+  {
+    "id": 832,
+    "text": "Daring to begin is the first step to achieving greatness.",
+    "category": "courage"
+  },
+  {
+    "id": 833,
+    "text": "Courage is the fuel that powers your journey to success.",
+    "category": "courage"
+  },
+  {
+    "id": 834,
+    "text": "Step boldly into the unknown—adventure awaits on the other side.",
+    "category": "courage"
+  },
+  {
+    "id": 835,
+    "text": "With courage as your guide, you can achieve the impossible.",
+    "category": "courage"
+  },
+  {
+    "id": 836,
+    "text": "Rise above your doubts and fears with unwavering courage.",
+    "category": "courage"
+  },
+  {
+    "id": 837,
+    "text": "Your courage will be the key that unlocks new opportunities.",
+    "category": "courage"
+  },
+  {
+    "id": 838,
+    "text": "In every challenge, find the courage to be your best self.",
+    "category": "courage"
+  },
+  {
+    "id": 839,
+    "text": "Bravery is not the absence of fear but the triumph over it.",
+    "category": "courage"
+  },
+  {
+    "id": 840,
+    "text": "Believe in your inner strength—it is a force to be reckoned with.",
+    "category": "courage"
+  },
+  {
+    "id": 841,
+    "text": "Your courage will inspire others to reach for the stars.",
+    "category": "courage"
+  },
+  {
+    "id": 842,
+    "text": "Face your fears head-on, for they hold your greatest growth.",
+    "category": "courage"
+  },
+  {
+    "id": 843,
+    "text": "Courage is the bridge between your dreams and reality.",
+    "category": "courage"
+  },
+  {
+    "id": 844,
+    "text": "With courage in your heart, you can conquer any obstacle.",
+    "category": "courage"
+  },
+  {
+    "id": 845,
+    "text": "The secret to success lies in your willingness to be brave.",
+    "category": "courage"
+  },
+  {
+    "id": 846,
+    "text": "Be bold, be brave, be unstoppable—your destiny awaits.",
+    "category": "courage"
+  },
+  {
+    "id": 847,
+    "text": "Courage is the armor that protects you in the battle of life.",
+    "category": "courage"
+  },
+  {
+    "id": 848,
+    "text": "Every challenge you overcome with courage strengthens your spirit.",
+    "category": "courage"
+  },
+  {
+    "id": 849,
+    "text": "In times of doubt, let courage be your guiding light.",
+    "category": "courage"
+  },
+  {
+    "id": 850,
+    "text": "The bravest actions come from a heart full of courage.",
+    "category": "courage"
+  },
+  {
+    "id": 851,
+    "text": "Trust your inner warrior—courage is your greatest weapon.",
+    "category": "courage"
+  },
+  {
+    "id": 852,
+    "text": "Let your courage roar louder than your fears.",
+    "category": "courage"
+  },
+  {
+    "id": 853,
+    "text": "Your bravery will lead you to the treasures of your dreams.",
+    "category": "courage"
+  },
+  {
+    "id": 854,
+    "text": "Courage is the magic that turns dreams into reality.",
+    "category": "courage"
+  },
+  {
+    "id": 855,
+    "text": "The power of courage lies within you—unleash it boldly.",
+    "category": "courage"
+  },
+  {
+    "id": 856,
+    "text": "Stand tall with courage, for you are destined for greatness.",
+    "category": "courage"
+  },
+  {
+    "id": 857,
+    "text": "Embrace uncertainty with courage, for it leads to growth.",
+    "category": "courage"
+  },
+  {
+    "id": 858,
+    "text": "Boldness is the key to unlocking your full potential.",
+    "category": "courage"
+  },
+  {
+    "id": 859,
+    "text": "You are braver than you think, stronger than you know.",
+    "category": "courage"
+  },
+  {
+    "id": 860,
+    "text": "With courage as your ally, no challenge is too great.",
+    "category": "courage"
+  },
+  {
+    "id": 861,
+    "text": "Courage is the bridge between fear and accomplishment.",
+    "category": "courage"
+  },
+  {
+    "id": 862,
+    "text": "Challenges are opportunities for you to showcase your courage.",
+    "category": "courage"
+  },
+  {
+    "id": 863,
+    "text": "In moments of doubt, find strength in your courage.",
+    "category": "courage"
+  },
+  {
+    "id": 864,
+    "text": "Let your courage be a light that guides you through darkness.",
+    "category": "courage"
+  },
+  {
+    "id": 865,
+    "text": "Your courage will lead you to the fulfillment of your dreams.",
+    "category": "courage"
+  },
+  {
+    "id": 866,
+    "text": "Embrace the unknown with courage—adventure awaits you.",
+    "category": "courage"
+  },
+  {
+    "id": 867,
+    "text": "With bravery as your companion, success is inevitable.",
+    "category": "courage"
+  },
+  {
+    "id": 868,
+    "text": "Embrace fear, for courage is born in moments of uncertainty.",
+    "category": "courage"
+  },
+  {
+    "id": 869,
+    "text": "You are stronger than you think; trust in your resilience.",
+    "category": "courage"
+  },
+  {
+    "id": 870,
+    "text": "Dare to dream big, and watch your courage propel you forward.",
+    "category": "courage"
+  },
+  {
+    "id": 871,
+    "text": "Courage is not the absence of fear, but the triumph over it.",
+    "category": "courage"
+  },
+  {
+    "id": 872,
+    "text": "Your brave heart will lead you to extraordinary places.",
+    "category": "courage"
+  },
+  {
+    "id": 873,
+    "text": "Believe in yourself, and watch your courage shine bright.",
+    "category": "courage"
+  },
+  {
+    "id": 874,
+    "text": "The universe rewards those who bravely face their fears.",
+    "category": "courage"
+  },
+  {
+    "id": 875,
+    "text": "Courage is the key that unlocks endless possibilities in life.",
+    "category": "courage"
+  },
+  {
+    "id": 876,
+    "text": "Step out of your comfort zone; greatness awaits you there.",
+    "category": "courage"
+  },
+  {
+    "id": 877,
+    "text": "Your courage today paves the way for a brighter tomorrow.",
+    "category": "courage"
+  },
+  {
+    "id": 878,
+    "text": "In the face of adversity, your courage will shine like a beacon.",
+    "category": "courage"
+  },
+  {
+    "id": 879,
+    "text": "Let your brave spirit guide you through life's challenges.",
+    "category": "courage"
+  },
+  {
+    "id": 880,
+    "text": "Every step you take with courage brings you closer to success.",
+    "category": "courage"
+  },
+  {
+    "id": 881,
+    "text": "Trust in your inner strength; you are capable of amazing things.",
+    "category": "courage"
+  },
+  {
+    "id": 882,
+    "text": "Courage is the seed from which your future blooms beautifully.",
+    "category": "courage"
+  },
+  {
+    "id": 883,
+    "text": "Embrace uncertainty with courage; it holds the key to growth.",
+    "category": "courage"
+  },
+  {
+    "id": 884,
+    "text": "Fear may knock on your door, but courage will answer.",
+    "category": "courage"
+  },
+  {
+    "id": 885,
+    "text": "Dare to be different; courageously embrace your uniqueness.",
+    "category": "courage"
+  },
+  {
+    "id": 886,
+    "text": "Stand tall in the face of adversity; your courage is inspiring.",
+    "category": "courage"
+  },
+  {
+    "id": 887,
+    "text": "Your courage lights up the path to your wildest dreams.",
+    "category": "courage"
+  },
+  {
+    "id": 888,
+    "text": "The world is in need of your unique brand of courage.",
+    "category": "courage"
+  },
+  {
+    "id": 889,
+    "text": "Your courage today will inspire others to be brave tomorrow.",
+    "category": "courage"
+  },
+  {
+    "id": 890,
+    "text": "Let your courageous spirit be your guiding light in darkness.",
+    "category": "courage"
+  },
+  {
+    "id": 891,
+    "text": "Courageously face your fears; they hold the key to your growth.",
+    "category": "courage"
+  },
+  {
+    "id": 892,
+    "text": "In moments of doubt, your courage will be your greatest strength.",
+    "category": "courage"
+  },
+  {
+    "id": 893,
+    "text": "Your courageous heart is a beacon of hope in a world of darkness.",
+    "category": "courage"
+  },
+  {
+    "id": 894,
+    "text": "Believe in your inner warrior; courage is your greatest weapon.",
+    "category": "courage"
+  },
+  {
+    "id": 895,
+    "text": "Embrace your fears with courage, for they are stepping stones to growth.",
+    "category": "courage"
+  },
+  {
+    "id": 896,
+    "text": "Embrace the journey; miracles happen along the way.",
+    "category": "inspiration"
+  },
+  {
+    "id": 897,
+    "text": "Believe in yourself, for you are capable of greatness.",
+    "category": "inspiration"
+  },
+  {
+    "id": 898,
+    "text": "Your positivity attracts endless opportunities in life.",
+    "category": "inspiration"
+  },
+  {
+    "id": 899,
+    "text": "Kindness is a language that the deaf can hear.",
+    "category": "inspiration"
+  },
+  {
+    "id": 900,
+    "text": "Radiate love, and watch the world light up with joy.",
+    "category": "inspiration"
+  },
+  {
+    "id": 901,
+    "text": "Every sunset brings the promise of a new dawn.",
+    "category": "inspiration"
+  },
+  {
+    "id": 902,
+    "text": "Your potential is limitless; embrace your inner power.",
+    "category": "inspiration"
+  },
+  {
+    "id": 903,
+    "text": "Dream big, work hard, and success will follow.",
+    "category": "inspiration"
+  },
+  {
+    "id": 904,
+    "text": "Your smile has the power to brighten someone's day.",
+    "category": "inspiration"
+  },
+  {
+    "id": 905,
+    "text": "Embrace change; it leads to growth and transformation.",
+    "category": "inspiration"
+  },
+  {
+    "id": 906,
+    "text": "The seeds you plant today will bloom into tomorrow's blessings.",
+    "category": "inspiration"
+  },
+  {
+    "id": 907,
+    "text": "Be the reason someone believes in the goodness of people.",
+    "category": "inspiration"
+  },
+  {
+    "id": 908,
+    "text": "Trust in the universe's plan for you; it's full of possibilities.",
+    "category": "inspiration"
+  },
+  {
+    "id": 909,
+    "text": "Your unique gifts are meant to be shared with the world.",
+    "category": "inspiration"
+  },
+  {
+    "id": 910,
+    "text": "Challenge yourself, for that's where growth begins.",
+    "category": "inspiration"
+  },
+  {
+    "id": 911,
+    "text": "You are a beacon of light in a world that sometimes feels dark.",
+    "category": "inspiration"
+  },
+  {
+    "id": 912,
+    "text": "Every step forward is a step closer to your dreams.",
+    "category": "inspiration"
+  },
+  {
+    "id": 913,
+    "text": "Love is the answer to every question life poses.",
+    "category": "inspiration"
+  },
+  {
+    "id": 914,
+    "text": "In the midst of chaos, find your inner peace.",
+    "category": "inspiration"
+  },
+  {
+    "id": 915,
+    "text": "The world is full of beauty; open your eyes to see it.",
+    "category": "inspiration"
+  },
+  {
+    "id": 916,
+    "text": "Your kindness will create ripples that touch many hearts.",
+    "category": "inspiration"
+  },
+  {
+    "id": 917,
+    "text": "Every obstacle is a stepping stone to success.",
+    "category": "inspiration"
+  },
+  {
+    "id": 918,
+    "text": "Your heart knows the way; trust its wisdom.",
+    "category": "inspiration"
+  },
+  {
+    "id": 919,
+    "text": "Great things take time; be patient and persistent.",
+    "category": "inspiration"
+  },
+  {
+    "id": 920,
+    "text": "Your compassion will heal wounds unseen by the eye.",
+    "category": "inspiration"
+  },
+  {
+    "id": 921,
+    "text": "Believe in yourself, and others will too.",
+    "category": "inspiration"
+  },
+  {
+    "id": 922,
+    "text": "Embrace the present moment; it holds infinite possibilities.",
+    "category": "inspiration"
+  },
+  {
+    "id": 923,
+    "text": "The universe applauds your courage to keep going.",
+    "category": "inspiration"
+  },
+  {
+    "id": 924,
+    "text": "You are a masterpiece in the making; embrace your uniqueness.",
+    "category": "inspiration"
+  },
+  {
+    "id": 925,
+    "text": "Gratitude turns what we have into more than enough.",
+    "category": "inspiration"
+  },
+  {
+    "id": 926,
+    "text": "Your positive actions will inspire positive reactions.",
+    "category": "inspiration"
+  },
+  {
+    "id": 927,
+    "text": "In the garden of life, sow seeds of kindness and love.",
+    "category": "inspiration"
+  },
+  {
+    "id": 928,
+    "text": "Your light shines brightest in moments of darkness.",
+    "category": "inspiration"
+  },
+  {
+    "id": 929,
+    "text": "Every struggle you overcome brings you closer to victory.",
+    "category": "inspiration"
+  },
+  {
+    "id": 930,
+    "text": "Embrace your flaws, for they make you beautifully human.",
+    "category": "inspiration"
+  },
+  {
+    "id": 931,
+    "text": "Your potential is as vast as the ocean; dive deep.",
+    "category": "inspiration"
+  },
+  {
+    "id": 932,
+    "text": "Cherish every moment, for they are the fabric of life.",
+    "category": "inspiration"
+  },
+  {
+    "id": 933,
+    "text": "The best is yet to come; have faith in tomorrow.",
+    "category": "inspiration"
+  },
+  {
+    "id": 934,
+    "text": "Your heart knows the way; follow it with courage.",
+    "category": "inspiration"
+  },
+  {
+    "id": 935,
+    "text": "Spread joy like wildflowers bloom in the spring.",
+    "category": "inspiration"
+  },
+  {
+    "id": 936,
+    "text": "Peace begins with a smile; be the bringer of calm.",
+    "category": "inspiration"
+  },
+  {
+    "id": 937,
+    "text": "Dance in the rain and watch the flowers grow.",
+    "category": "inspiration"
+  },
+  {
+    "id": 938,
+    "text": "Your dreams are the blueprints of your future reality.",
+    "category": "inspiration"
+  },
+  {
+    "id": 939,
+    "text": "The world is brighter because you're in it.",
+    "category": "inspiration"
+  },
+  {
+    "id": 940,
+    "text": "The most beautiful things in life are felt with the heart.",
+    "category": "inspiration"
+  },
+  {
+    "id": 941,
+    "text": "Your kindness is a gift that keeps on giving.",
+    "category": "inspiration"
+  },
+  {
+    "id": 942,
+    "text": "Believe in the magic of new beginnings.",
+    "category": "inspiration"
+  },
+  {
+    "id": 943,
+    "text": "Your positive energy is contagious; spread it generously.",
+    "category": "inspiration"
+  },
+  {
+    "id": 944,
+    "text": "The power to change the world lies within you.",
+    "category": "inspiration"
+  },
+  {
+    "id": 945,
+    "text": "Believe in yourself and magic will happen.",
+    "category": "inspiration"
+  },
+  {
+    "id": 946,
+    "text": "Your future is as bright as your smile.",
+    "category": "inspiration"
+  },
+  {
+    "id": 947,
+    "text": "Good things come to those who radiate positivity.",
+    "category": "inspiration"
+  },
+  {
+    "id": 948,
+    "text": "Your potential is limitless - embrace it fully.",
+    "category": "inspiration"
+  },
+  {
+    "id": 949,
+    "text": "Inspire others with your kindness and compassion.",
+    "category": "inspiration"
+  },
+  {
+    "id": 950,
+    "text": "Every day is a new opportunity for greatness.",
+    "category": "inspiration"
+  },
+  {
+    "id": 951,
+    "text": "Love is the answer to all of life's questions.",
+    "category": "inspiration"
+  },
+  {
+    "id": 952,
+    "text": "Stay true to yourself and success will follow.",
+    "category": "inspiration"
+  },
+  {
+    "id": 953,
+    "text": "The universe is conspiring to bring you joy.",
+    "category": "inspiration"
+  },
+  {
+    "id": 954,
+    "text": "Your happiness is a reflection of your mindset.",
+    "category": "inspiration"
+  },
+  {
+    "id": 955,
+    "text": "Adventure awaits those who seek it with an open heart.",
+    "category": "inspiration"
+  },
+  {
+    "id": 956,
+    "text": "Embrace each moment with gratitude and joy.",
+    "category": "inspiration"
+  },
+  {
+    "id": 957,
+    "text": "Your dreams are within reach - keep reaching.",
+    "category": "inspiration"
+  },
+  {
+    "id": 958,
+    "text": "Kindness is free - sprinkle it everywhere you go.",
+    "category": "inspiration"
+  },
+  {
+    "id": 959,
+    "text": "Beautiful surprises await you around every corner.",
+    "category": "inspiration"
+  },
+  {
+    "id": 960,
+    "text": "Your heart knows the way - trust its guidance.",
+    "category": "inspiration"
+  },
+  {
+    "id": 961,
+    "text": "Your energy is contagious - spread positivity.",
+    "category": "inspiration"
+  },
+  {
+    "id": 962,
+    "text": "Success blooms where positivity is planted.",
+    "category": "inspiration"
+  },
+  {
+    "id": 963,
+    "text": "You are capable of achieving anything you desire.",
+    "category": "inspiration"
+  },
+  {
+    "id": 964,
+    "text": "The world needs your unique light - shine brightly.",
+    "category": "inspiration"
+  },
+  {
+    "id": 965,
+    "text": "Believe in the power of your dreams.",
+    "category": "inspiration"
+  },
+  {
+    "id": 966,
+    "text": "Every setback is a setup for a comeback.",
+    "category": "inspiration"
+  },
+  {
+    "id": 967,
+    "text": "Your potential is endless - keep pushing forward.",
+    "category": "inspiration"
+  },
+  {
+    "id": 968,
+    "text": "Inner peace is the key to outer success.",
+    "category": "inspiration"
+  },
+  {
+    "id": 969,
+    "text": "The best is yet to come - believe in it.",
+    "category": "inspiration"
+  },
+  {
+    "id": 970,
+    "text": "Your journey is just beginning - enjoy the ride.",
+    "category": "inspiration"
+  },
+  {
+    "id": 971,
+    "text": "Your positive attitude attracts miracles into your life.",
+    "category": "inspiration"
+  },
+  {
+    "id": 972,
+    "text": "Embrace change and watch new opportunities unfold.",
+    "category": "inspiration"
+  },
+  {
+    "id": 973,
+    "text": "Your hard work will pay off in unexpected ways.",
+    "category": "inspiration"
+  },
+  {
+    "id": 974,
+    "text": "Cherish the present moment - it's a gift.",
+    "category": "inspiration"
+  },
+  {
+    "id": 975,
+    "text": "Follow your heart, it knows the way.",
+    "category": "inspiration"
+  },
+  {
+    "id": 976,
+    "text": "You are a magnet for abundance and joy.",
+    "category": "inspiration"
+  },
+  {
+    "id": 977,
+    "text": "Success is the sum of small efforts repeated daily.",
+    "category": "inspiration"
+  },
+  {
+    "id": 978,
+    "text": "Let your light shine, for it inspires others to do the same.",
+    "category": "inspiration"
+  },
+  {
+    "id": 979,
+    "text": "The seeds you plant today will blossom tomorrow.",
+    "category": "inspiration"
+  },
+  {
+    "id": 980,
+    "text": "Trust the timing of your life's unfolding.",
+    "category": "inspiration"
+  },
+  {
+    "id": 981,
+    "text": "Your dreams are the blueprints for your reality.",
+    "category": "inspiration"
+  },
+  {
+    "id": 982,
+    "text": "Every challenge you face makes you stronger.",
+    "category": "inspiration"
+  },
+  {
+    "id": 983,
+    "text": "Your potential for growth is limitless.",
+    "category": "inspiration"
+  },
+  {
+    "id": 984,
+    "text": "Love and kindness are the keys to happiness.",
+    "category": "inspiration"
+  },
+  {
+    "id": 985,
+    "text": "You are exactly where you need to be right now.",
+    "category": "inspiration"
+  },
+  {
+    "id": 986,
+    "text": "The universe is aligning in your favor - trust it.",
+    "category": "inspiration"
+  },
+  {
+    "id": 987,
+    "text": "Warm hearts and kind souls attract miracles.",
+    "category": "inspiration"
+  },
+  {
+    "id": 988,
+    "text": "Your positive mindset is your greatest asset.",
+    "category": "inspiration"
+  },
+  {
+    "id": 989,
+    "text": "Believe in yourself, for you are truly remarkable.",
+    "category": "inspiration"
+  },
+  {
+    "id": 990,
+    "text": "Good things come to those who believe in goodness.",
+    "category": "inspiration"
+  },
+  {
+    "id": 991,
+    "text": "Your journey is unique and beautiful - embrace it.",
+    "category": "inspiration"
+  },
+  {
+    "id": 992,
+    "text": "The world is full of possibilities - explore them all.",
+    "category": "inspiration"
+  },
+  {
+    "id": 993,
+    "text": "Your spirit is a force to be reckoned with - own it.",
+    "category": "inspiration"
+  },
+  {
+    "id": 994,
+    "text": "Every setback is a setup for a major comeback.",
+    "category": "inspiration"
+  },
+  {
+    "id": 995,
+    "text": "Your positive thoughts create powerful outcomes in your future.",
+    "category": "inspiration"
+  },
+  {
+    "id": 996,
+    "text": "Love and kindness are the secret ingredients to a fulfilling life.",
+    "category": "inspiration"
+  },
+  {
+    "id": 997,
+    "text": "Believe in the beauty of your dreams and watch miracles unfold.",
+    "category": "inspiration"
+  },
+  {
+    "id": 998,
+    "text": "Your potential is limitless - embrace the journey ahead with courage.",
+    "category": "inspiration"
+  },
+  {
+    "id": 999,
+    "text": "Opportunities for growth are disguised as challenges - seize them.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1000,
+    "text": "Radiate positivity and attract abundance into your life effortlessly.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1001,
+    "text": "Trust in the process, for the universe is guiding you to greatness.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1002,
+    "text": "Embrace change as a stepping stone towards your greatest transformation.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1003,
+    "text": "Your inner strength will carry you through any storm that comes your way.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1004,
+    "text": "The universe is conspiring in your favor - believe in magic.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1005,
+    "text": "Your unique gifts are needed in the world - share them boldly.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1006,
+    "text": "Hope is the anchor that keeps you grounded in times of uncertainty.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1007,
+    "text": "Embrace the unknown, for therein lies endless possibilities and growth.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1008,
+    "text": "You are a beacon of light, illuminating paths for others to follow.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1009,
+    "text": "The seeds of greatness lie within you - nurture them with love.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1010,
+    "text": "Every moment is a fresh beginning, filled with endless opportunities.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1011,
+    "text": "Your journey is unfolding perfectly - trust in the divine timing.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1012,
+    "text": "Courageously pursue your passions and watch miracles manifest.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1013,
+    "text": "Your heart's desires are manifesting - keep faith and stay patient.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1014,
+    "text": "Gratitude unlocks the fullness of life's blessings - practice it daily.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1015,
+    "text": "The universe is aligning in your favor - stay open to miracles.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1016,
+    "text": "Your positive energy is a gift to the world - shine brightly.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1017,
+    "text": "Your adventurous spirit will lead you to exciting new horizons.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1018,
+    "text": "Every challenge is an opportunity for growth and transformation.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1019,
+    "text": "Your potential is as vast as the ocean - dive deep and explore.",
+    "category": "inspiration"
+  },
+  {
+    "id": 1020,
+    "text": "Believe in yourself, for you hold the power to achieve greatness.",
+    "category": "inspiration"
+  }
+]

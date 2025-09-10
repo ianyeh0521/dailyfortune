@@ -1,0 +1,198 @@
+"""
+Tkinter GUI for Daily Fortune App
+Simple, clean interface for fortune display
+"""
+
+import tkinter as tk
+from tkinter import ttk, messagebox
+from datetime import datetime
+from fortune_data import FortuneManager
+
+class FortuneApp:
+    def __init__(self):
+        self.fortune_manager = FortuneManager()
+        self.root = tk.Tk()
+        self.setup_window()
+        self.create_widgets()
+        
+    def setup_window(self):
+        """Configure main window"""
+        self.root.title("今日幸運籤餅")
+        self.root.geometry("500x400")
+        self.root.resizable(True, True)
+        
+        # Center window on screen
+        self.root.update_idletasks()
+        x = (self.root.winfo_screenwidth() // 2) - (500 // 2)
+        y = (self.root.winfo_screenheight() // 2) - (400 // 2)
+        self.root.geometry(f"500x400+{x}+{y}")
+        
+        # Configure style
+        style = ttk.Style()
+        style.theme_use('clam')
+        
+    def create_widgets(self):
+        """Create and arrange GUI elements"""
+        # Main frame
+        main_frame = ttk.Frame(self.root, padding="20")
+        main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        
+        # Configure grid weights
+        self.root.columnconfigure(0, weight=1)
+        self.root.rowconfigure(0, weight=1)
+        main_frame.columnconfigure(0, weight=1)
+        main_frame.rowconfigure(2, weight=1)
+        
+        # Title
+        title_label = ttk.Label(main_frame, text="今日幸運籤餅", 
+                               font=("Microsoft JhengHei", 18, "bold"))
+        title_label.grid(row=0, column=0, pady=(0, 20))
+        
+        # Date
+        today = datetime.now().strftime("%B %d, %Y")
+        date_label = ttk.Label(main_frame, text=today, 
+                              font=("Arial", 12))
+        date_label.grid(row=1, column=0, pady=(0, 20))
+        
+        # Fortune display frame
+        fortune_frame = ttk.LabelFrame(main_frame, text="您的籤餅", padding="20")
+        fortune_frame.grid(row=2, column=0, sticky=(tk.W, tk.E, tk.N, tk.S), pady=(0, 20))
+        fortune_frame.columnconfigure(0, weight=1)
+        fortune_frame.rowconfigure(0, weight=1)
+        
+        # Fortune text
+        self.fortune_text = tk.Text(fortune_frame, wrap=tk.WORD, font=("Microsoft JhengHei", 14),
+                                   height=6, bg="#f8f9fa", relief="flat", 
+                                   state="disabled", cursor="arrow")
+        self.fortune_text.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        
+        # Scrollbar for fortune text
+        scrollbar = ttk.Scrollbar(fortune_frame, orient="vertical", 
+                                 command=self.fortune_text.yview)
+        scrollbar.grid(row=0, column=1, sticky=(tk.N, tk.S))
+        self.fortune_text.configure(yscrollcommand=scrollbar.set)
+        
+        # Button frame
+        button_frame = ttk.Frame(main_frame)
+        button_frame.grid(row=3, column=0, sticky=(tk.W, tk.E))
+        button_frame.columnconfigure(0, weight=1)
+        button_frame.columnconfigure(1, weight=1)
+        button_frame.columnconfigure(2, weight=1)
+        
+        # Buttons
+        self.generate_button = ttk.Button(button_frame, text="獲取今日籤餅", 
+                                         command=self.generate_fortune)
+        self.generate_button.grid(row=0, column=0, padx=(0, 10), sticky=(tk.W, tk.E))
+        
+        stats_button = ttk.Button(button_frame, text="查看統計", 
+                                 command=self.show_stats)
+        stats_button.grid(row=0, column=1, padx=5, sticky=(tk.W, tk.E))
+        
+        quit_button = ttk.Button(button_frame, text="退出", 
+                                command=self.root.quit)
+        quit_button.grid(row=0, column=2, padx=(10, 0), sticky=(tk.W, tk.E))
+        
+        # Load existing fortune or show welcome message
+        self.load_initial_state()
+        
+    def load_initial_state(self):
+        """Load today's fortune if it exists, or show welcome message"""
+        existing_fortune = self.fortune_manager.get_todays_fortune()
+        
+        if existing_fortune:
+            self.display_fortune(existing_fortune)
+            self.generate_button.config(text="今日籤餅已生成", state="disabled")
+        else:
+            if self.fortune_manager.can_generate_fortune():
+                self.display_message("點擊「獲取今日籤餅」來接收您的每日籤餅！")
+            else:
+                self.display_message("您已經收到今日的籤餅了，明天再來吧！")
+                self.generate_button.config(text="明天再來", state="disabled")
+    
+    def display_fortune(self, fortune):
+        """Display fortune in the text widget"""
+        self.fortune_text.config(state="normal")
+        self.fortune_text.delete(1.0, tk.END)
+        
+        # Add fortune text
+        self.fortune_text.insert(tk.END, f'"{fortune["text"]}"\n\n')
+        
+        # Add category and timestamp
+        category_text = f"類別: {fortune['category'].title()}\n"
+        if 'generated_at' in fortune:
+            timestamp = datetime.fromisoformat(fortune['generated_at']).strftime("%I:%M %p")
+            category_text += f"生成時間: {timestamp}"
+        
+        self.fortune_text.insert(tk.END, category_text)
+        
+        # Center align and style the fortune text
+        self.fortune_text.tag_configure("fortune", justify="center", font=("Microsoft JhengHei", 16, "italic"))
+        self.fortune_text.tag_configure("meta", justify="center", font=("Microsoft JhengHei", 10), foreground="gray")
+        
+        self.fortune_text.tag_add("fortune", "1.0", "2.0")
+        self.fortune_text.tag_add("meta", "3.0", tk.END)
+        
+        self.fortune_text.config(state="disabled")
+    
+    def display_message(self, message):
+        """Display a message in the text widget"""
+        self.fortune_text.config(state="normal")
+        self.fortune_text.delete(1.0, tk.END)
+        self.fortune_text.insert(tk.END, message)
+        self.fortune_text.tag_configure("center", justify="center")
+        self.fortune_text.tag_add("center", "1.0", tk.END)
+        self.fortune_text.config(state="disabled")
+    
+    def generate_fortune(self):
+        """Generate and display today's fortune"""
+        try:
+            if not self.fortune_manager.can_generate_fortune():
+                messagebox.showinfo("已經生成", 
+                                  "您已經收到今日的籤餅了！\n明天再來獲取新的籤餅。")
+                return
+            
+            fortune = self.fortune_manager.generate_fortune()
+            self.display_fortune(fortune)
+            
+            # Update button state
+            self.generate_button.config(text="籤餅已生成！", state="disabled")
+            
+            # Show success message
+            messagebox.showinfo("籤餅已生成！", 
+                              f'您今日的籤餅：\n\n"{fortune["text"]}"')
+            
+        except Exception as e:
+            messagebox.showerror("錯誤", f"生成籤餅失敗: {str(e)}")
+    
+    def show_stats(self):
+        """Show user statistics in a popup"""
+        try:
+            stats = self.fortune_manager.get_stats()
+            
+            if stats["total_fortunes"] == 0:
+                messagebox.showinfo("統計資料", "尚未生成籤餅！\n獲取您的第一個籤餅來查看統計資料。")
+                return
+            
+            stats_text = f"""籤餅統計：
+
+總共獲得籤餅: {stats['total_fortunes']} 次
+目前連續天數: {stats['streak']} 天
+首次籤餅: {stats['first_fortune']}
+最新籤餅: {stats['last_fortune']}
+
+繼續保持！每天回來維持您的連續記錄。"""
+            
+            messagebox.showinfo("您的籤餅統計", stats_text)
+            
+        except Exception as e:
+            messagebox.showerror("錯誤", f"載入統計資料失敗: {str(e)}")
+    
+    def run(self):
+        """Start the application"""
+        try:
+            self.root.mainloop()
+        except KeyboardInterrupt:
+            self.root.quit()
+        except Exception as e:
+            messagebox.showerror("應用程式錯誤", f"發生未預期的錯誤: {str(e)}")
+            self.root.quit()

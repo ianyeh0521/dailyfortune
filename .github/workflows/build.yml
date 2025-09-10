@@ -1,0 +1,133 @@
+name: Build Fortune Cookie App
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest]
+        include:
+          - os: windows-latest
+            executable_name: "今日幸運籤餅.exe"
+            artifact_name: "fortune-cookie-windows"
+          - os: macos-latest  
+            executable_name: "今日幸運籤餅"
+            artifact_name: "fortune-cookie-macos"
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+
+    - name: Build executable (Windows)
+      if: matrix.os == 'windows-latest'
+      run: |
+        pyinstaller --onefile --windowed --name "今日幸運籤餅" --add-data "fortunes.json;." main.py
+
+    - name: Build executable (macOS)
+      if: matrix.os == 'macos-latest'
+      run: |
+        pyinstaller --onefile --windowed --name "今日幸運籤餅" --add-data "fortunes.json:." main.py
+
+    - name: Create README for distribution
+      shell: python
+      run: |
+        import platform
+        
+        if platform.system() == "Windows":
+            readme = """# 今日幸運籤餅 - Windows版本
+
+## 使用方法
+1. 雙擊 "今日幸運籤餅.exe" 開始使用
+2. 點擊 "獲取今日籤餅" 接收您的每日籤餅
+3. 明天再來獲取新的籤餅！
+
+## 系統需求
+- Windows 10 或更高版本
+- 無需安裝 Python
+
+## 注意事項
+- 首次運行可能出現 Windows 安全警告，請點擊 "仍要執行"
+- 您的籤餅歷史記錄儲存在: C:\\Users\\[用戶名]\\.dailyfortune\\
+
+享受您的每日籤餅！ 🥠"""
+        else:  # macOS
+            readme = """# 今日幸運籤餅 - macOS版本
+
+## 使用方法
+1. 雙擊 "今日幸運籤餅" 開始使用
+2. 點擊 "獲取今日籤餅" 接收您的每日籤餅
+3. 明天再來獲取新的籤餅！
+
+## 系統需求
+- macOS 10.14 (Mojave) 或更高版本
+- 無需安裝 Python
+
+## 注意事項
+- 首次運行可能需要右鍵點擊 → "打開" 來繞過安全檢查
+- 您的籤餅歷史記錄儲存在: ~/.dailyfortune/
+
+享受您的每日籤餅！ 🥠"""
+        
+        with open("dist/README.txt", "w", encoding="utf-8") as f:
+            f.write(readme)
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ matrix.artifact_name }}
+        path: |
+          dist/${{ matrix.executable_name }}
+          dist/README.txt
+
+  create-release:
+    if: github.event_name == 'release'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download Windows artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: fortune-cookie-windows
+        path: ./windows-release
+
+    - name: Download macOS artifact  
+      uses: actions/download-artifact@v3
+      with:
+        name: fortune-cookie-macos
+        path: ./macos-release
+
+    - name: Create Windows ZIP
+      run: |
+        cd windows-release
+        zip -r "../今日幸運籤餅-Windows.zip" .
+
+    - name: Create macOS ZIP
+      run: |
+        cd macos-release  
+        zip -r "../今日幸運籤餅-macOS.zip" .
+
+    - name: Upload Release Assets
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          今日幸運籤餅-Windows.zip
+          今日幸運籤餅-macOS.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
