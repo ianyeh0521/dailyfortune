@@ -46,7 +46,18 @@ jobs:
         # tkinter should be included with Python on macOS
         python -c "import tkinter; print('tkinter available')"
 
-    - name: Verify required files
+    - name: Verify required files (Windows)
+      if: matrix.os == 'windows-latest'
+      run: |
+        dir
+        echo "Checking for required files..."
+        if (!(Test-Path "fortunes.json")) { echo "❌ fortunes.json not found"; exit 1 }
+        if (!(Test-Path "main.py")) { echo "❌ main.py not found"; exit 1 }
+        echo "✅ All required files found"
+      shell: pwsh
+        
+    - name: Verify required files (macOS/Linux)
+      if: matrix.os != 'windows-latest'
       run: |
         ls -la
         echo "Checking for required files..."
@@ -65,12 +76,15 @@ jobs:
       run: |
         echo "Starting PyInstaller build for Windows..."
         python -c "import gui; import fortune_data; print('All modules imported successfully')"
-        pyinstaller --distpath dist DailyFortune.spec --log-level INFO || {
+        try {
+          pyinstaller --distpath dist DailyFortune.spec --log-level INFO
+        } catch {
           echo "Windowed build failed, trying with console mode..."
           pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json;." --distpath dist main.py --log-level INFO
         }
         echo "Build completed, listing dist directory:"
-        ls -la dist/
+        dir dist
+      shell: pwsh
 
     - name: Build executable (macOS)
       if: matrix.os == 'macos-latest'
@@ -84,11 +98,11 @@ jobs:
         echo "Build completed, listing dist directory:"
         ls -la dist/
 
-    - name: Create README for distribution
+    - name: Create README for distribution (Windows)
+      if: matrix.os == 'windows-latest'
       run: |
-        mkdir -p dist
-        if [ "${{ matrix.os }}" = "windows-latest" ]; then
-          cat > dist/README.txt << 'EOF'
+        if (!(Test-Path "dist")) { New-Item -ItemType Directory -Path "dist" }
+        @"
         # Daily Fortune Cookie - Windows Version
 
         ## How to Use
@@ -105,9 +119,14 @@ jobs:
         - Your fortune history is stored in: C:\Users\[username]\.dailyfortune\
 
         Enjoy your daily dose of inspiration! 🥠
-        EOF
-        else
-          cat > dist/README.txt << 'EOF'
+        "@ | Out-File -FilePath "dist/README.txt" -Encoding UTF8
+      shell: pwsh
+        
+    - name: Create README for distribution (macOS/Linux)
+      if: matrix.os != 'windows-latest'
+      run: |
+        mkdir -p dist
+        cat > dist/README.txt << 'EOF'
         # Daily Fortune Cookie - macOS Version
 
         ## How to Use
@@ -125,7 +144,6 @@ jobs:
 
         Enjoy your daily dose of inspiration! 🥠
         EOF
-        fi
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
