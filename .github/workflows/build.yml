@@ -42,13 +42,13 @@ jobs:
 
     - name: Build with PyInstaller
       run: |
-        pyinstaller --distpath dist DailyFortune.spec --log-level INFO
+        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json${{ runner.os == 'Windows' && ';' || ':' }}." --distpath dist --hidden-import tkinter --hidden-import tkinter.ttk --hidden-import tkinter.messagebox main.py
 
-    - name: Fallback build if needed
+    - name: Fallback console build if needed
       if: failure()
       run: |
-        python -c "print('Primary build failed, trying fallback...')"
-        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json${{ runner.os == 'Windows' && ';' || ':' }}." --distpath dist main.py
+        python -c "print('Windowed build failed, trying console mode...')"
+        pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json${{ runner.os == 'Windows' && ';' || ':' }}." --distpath dist --hidden-import tkinter --hidden-import tkinter.ttk --hidden-import tkinter.messagebox main.py
 
     - name: Create README
       run: python create_readme.py "${{ runner.os }}" "${{ matrix.executable_name }}"
