@@ -5,22 +5,19 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  release:
-    types: [created]
 
 jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [windows-latest, macos-latest]
         include:
           - os: windows-latest
-            executable_name: "DailyFortuneCookie.exe"
-            artifact_name: "fortune-cookie-windows"
+            artifact_name: fortune-cookie-windows
+            executable_name: DailyFortuneCookie.exe
           - os: macos-latest  
-            executable_name: "DailyFortuneCookie"
-            artifact_name: "fortune-cookie-macos"
+            artifact_name: fortune-cookie-macos
+            executable_name: DailyFortuneCookie
 
     steps:
     - uses: actions/checkout@v4
@@ -34,59 +31,85 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pyinstaller
+        
+    - name: Install GUI dependencies (Ubuntu)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y python3-tk
+        
+    - name: Install GUI dependencies (macOS)  
+      if: matrix.os == 'macos-latest'
+      run: |
+        # tkinter should be included with Python on macOS
+        python -c "import tkinter; print('tkinter available')"
+
+    - name: Verify required files
+      run: |
+        ls -la
+        echo "Checking for required files..."
+        if [ ! -f "fortunes.json" ]; then
+          echo "❌ fortunes.json not found"
+          exit 1
+        fi
+        if [ ! -f "main.py" ]; then
+          echo "❌ main.py not found"  
+          exit 1
+        fi
+        echo "✅ All required files found"
 
     - name: Build executable (Windows)
       if: matrix.os == 'windows-latest'
       run: |
-        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json;." main.py
+        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json;." --distpath dist main.py
 
     - name: Build executable (macOS)
       if: matrix.os == 'macos-latest'
       run: |
-        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json:." main.py
+        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json:." --distpath dist main.py
 
     - name: Create README for distribution
-      shell: python
       run: |
-        import platform
-        
-        if platform.system() == "Windows":
-            readme = """# 今日幸運籤餅 - Windows版本
+        mkdir -p dist
+        if [ "${{ matrix.os }}" = "windows-latest" ]; then
+          cat > dist/README.txt << 'EOF'
+        # Daily Fortune Cookie - Windows Version
 
-## 使用方法
-1. 雙擊 "今日幸運籤餅.exe" 開始使用
-2. 點擊 "獲取今日籤餅" 接收您的每日籤餅
-3. 明天再來獲取新的籤餅！
+        ## How to Use
+        1. Double-click "DailyFortuneCookie.exe" to start
+        2. Click "Get Today's Fortune" to receive your daily fortune
+        3. Come back tomorrow for a new fortune!
 
-## 系統需求
-- Windows 10 或更高版本
-- 無需安裝 Python
+        ## System Requirements
+        - Windows 10 or higher
+        - No Python installation needed
 
-## 注意事項
-- 首次運行可能出現 Windows 安全警告，請點擊 "仍要執行"
-- 您的籤餅歷史記錄儲存在: C:\\Users\\[用戶名]\\.dailyfortune\\
+        ## Notes
+        - First run may show Windows security warning - click "Run anyway"
+        - Your fortune history is stored in: C:\Users\[username]\.dailyfortune\
 
-享受您的每日籤餅！ 🥠"""
-        else:  # macOS
-            readme = """# 今日幸運籤餅 - macOS版本
+        Enjoy your daily dose of inspiration! 🥠
+        EOF
+        else
+          cat > dist/README.txt << 'EOF'
+        # Daily Fortune Cookie - macOS Version
 
-## 使用方法
-1. 雙擊 "今日幸運籤餅" 開始使用
-2. 點擊 "獲取今日籤餅" 接收您的每日籤餅
-3. 明天再來獲取新的籤餅！
+        ## How to Use
+        1. Double-click "DailyFortuneCookie" to start
+        2. Click "Get Today's Fortune" to receive your daily fortune
+        3. Come back tomorrow for a new fortune!
 
-## 系統需求
-- macOS 10.14 (Mojave) 或更高版本
-- 無需安裝 Python
+        ## System Requirements
+        - macOS 10.14 (Mojave) or higher
+        - No Python installation needed
 
-## 注意事項
-- 首次運行可能需要右鍵點擊 → "打開" 來繞過安全檢查
-- 您的籤餅歷史記錄儲存在: ~/.dailyfortune/
+        ## Notes
+        - First run may need right-click → "Open" to bypass security check
+        - Your fortune history is stored in: ~/.dailyfortune/
 
-享受您的每日籤餅！ 🥠"""
-        
-        with open("dist/README.txt", "w", encoding="utf-8") as f:
-            f.write(readme)
+        Enjoy your daily dose of inspiration! 🥠
+        EOF
+        fi
 
     - name: Upload artifact
       uses: actions/upload-artifact@v3
@@ -116,18 +139,18 @@ jobs:
     - name: Create Windows ZIP
       run: |
         cd windows-release
-        zip -r "../今日幸運籤餅-Windows.zip" .
+        zip -r "../DailyFortune-Windows.zip" .
 
     - name: Create macOS ZIP
       run: |
         cd macos-release  
-        zip -r "../今日幸運籤餅-macOS.zip" .
+        zip -r "../DailyFortune-macOS.zip" .
 
     - name: Upload Release Assets
       uses: softprops/action-gh-release@v1
       with:
         files: |
-          今日幸運籤餅-Windows.zip
-          今日幸運籤餅-macOS.zip
+          DailyFortune-Windows.zip
+          DailyFortune-macOS.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
