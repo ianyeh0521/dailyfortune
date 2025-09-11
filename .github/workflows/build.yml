@@ -31,119 +31,30 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        python -c "import tkinter; print('tkinter test passed')"
-        python -c "import json, os, sys, random; print('Standard library imports OK')"
-        
-    - name: Install GUI dependencies (Ubuntu)
-      if: matrix.os == 'ubuntu-latest'
+
+    - name: Test imports
       run: |
-        sudo apt-get update
-        sudo apt-get install -y python3-tk
-        
-    - name: Install GUI dependencies (macOS)  
-      if: matrix.os == 'macos-latest'
+        python -c "import tkinter; print('tkinter OK')"
+        python -c "import gui; import fortune_data; print('All modules OK')"
+
+    - name: Verify required files exist
+      run: python -c "import os; assert os.path.exists('fortunes.json'), 'fortunes.json missing'; assert os.path.exists('main.py'), 'main.py missing'; print('All files OK')"
+
+    - name: Build with PyInstaller
       run: |
-        # tkinter should be included with Python on macOS
-        python -c "import tkinter; print('tkinter available')"
+        pyinstaller --distpath dist DailyFortune.spec --log-level INFO
 
-    - name: Verify required files (Windows)
-      if: matrix.os == 'windows-latest'
+    - name: Fallback build if needed
+      if: failure()
       run: |
-        dir
-        echo "Checking for required files..."
-        if (!(Test-Path "fortunes.json")) { echo "❌ fortunes.json not found"; exit 1 }
-        if (!(Test-Path "main.py")) { echo "❌ main.py not found"; exit 1 }
-        echo "✅ All required files found"
-      shell: pwsh
-        
-    - name: Verify required files (macOS/Linux)
-      if: matrix.os != 'windows-latest'
-      run: |
-        ls -la
-        echo "Checking for required files..."
-        if [ ! -f "fortunes.json" ]; then
-          echo "❌ fortunes.json not found"
-          exit 1
-        fi
-        if [ ! -f "main.py" ]; then
-          echo "❌ main.py not found"  
-          exit 1
-        fi
-        echo "✅ All required files found"
+        python -c "print('Primary build failed, trying fallback...')"
+        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json${{ runner.os == 'Windows' && ';' || ':' }}." --distpath dist main.py
 
-    - name: Build executable (Windows)
-      if: matrix.os == 'windows-latest'
-      run: |
-        echo "Starting PyInstaller build for Windows..."
-        python -c "import gui; import fortune_data; print('All modules imported successfully')"
-        try {
-          pyinstaller --distpath dist DailyFortune.spec --log-level INFO
-        } catch {
-          echo "Windowed build failed, trying with console mode..."
-          pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json;." --distpath dist main.py --log-level INFO
-        }
-        echo "Build completed, listing dist directory:"
-        dir dist
-      shell: pwsh
+    - name: Create README
+      run: python create_readme.py "${{ runner.os }}" "${{ matrix.executable_name }}"
 
-    - name: Build executable (macOS)
-      if: matrix.os == 'macos-latest'
-      run: |
-        echo "Starting PyInstaller build for macOS..."
-        python -c "import gui; import fortune_data; print('All modules imported successfully')"
-        pyinstaller --distpath dist DailyFortune.spec --log-level INFO || {
-          echo "Windowed build failed, trying with console mode..."
-          pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json:." --distpath dist main.py --log-level INFO
-        }
-        echo "Build completed, listing dist directory:"
-        ls -la dist/
-
-    - name: Create README for distribution (Windows)
-      if: matrix.os == 'windows-latest'
-      run: |
-        if (!(Test-Path "dist")) { New-Item -ItemType Directory -Path "dist" }
-        @"
-        # Daily Fortune Cookie - Windows Version
-
-        ## How to Use
-        1. Double-click "DailyFortuneCookie.exe" to start
-        2. Click "Get Today's Fortune" to receive your daily fortune
-        3. Come back tomorrow for a new fortune!
-
-        ## System Requirements
-        - Windows 10 or higher
-        - No Python installation needed
-
-        ## Notes
-        - First run may show Windows security warning - click "Run anyway"
-        - Your fortune history is stored in: C:\Users\[username]\.dailyfortune\
-
-        Enjoy your daily dose of inspiration! 🥠
-        "@ | Out-File -FilePath "dist/README.txt" -Encoding UTF8
-      shell: pwsh
-        
-    - name: Create README for distribution (macOS/Linux)
-      if: matrix.os != 'windows-latest'
-      run: |
-        mkdir -p dist
-        cat > dist/README.txt << 'EOF'
-        # Daily Fortune Cookie - macOS Version
-
-        ## How to Use
-        1. Double-click "DailyFortuneCookie" to start
-        2. Click "Get Today's Fortune" to receive your daily fortune
-        3. Come back tomorrow for a new fortune!
-
-        ## System Requirements
-        - macOS 10.14 (Mojave) or higher
-        - No Python installation needed
-
-        ## Notes
-        - First run may need right-click → "Open" to bypass security check
-        - Your fortune history is stored in: ~/.dailyfortune/
-
-        Enjoy your daily dose of inspiration! 🥠
-        EOF
+    - name: List build results
+      run: python -c "import os; print('Build contents:'); [print(f'  {f}') for f in os.listdir('dist') if os.path.isfile(os.path.join('dist', f))]"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
