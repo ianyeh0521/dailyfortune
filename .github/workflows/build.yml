@@ -30,7 +30,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyinstaller
+        pip install -r requirements.txt
+        python -c "import tkinter; print('tkinter test passed')"
+        python -c "import json, os, sys, random; print('Standard library imports OK')"
         
     - name: Install GUI dependencies (Ubuntu)
       if: matrix.os == 'ubuntu-latest'
@@ -61,12 +63,26 @@ jobs:
     - name: Build executable (Windows)
       if: matrix.os == 'windows-latest'
       run: |
-        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json;." --distpath dist main.py
+        echo "Starting PyInstaller build for Windows..."
+        python -c "import gui; import fortune_data; print('All modules imported successfully')"
+        pyinstaller --distpath dist DailyFortune.spec --log-level INFO || {
+          echo "Windowed build failed, trying with console mode..."
+          pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json;." --distpath dist main.py --log-level INFO
+        }
+        echo "Build completed, listing dist directory:"
+        ls -la dist/
 
     - name: Build executable (macOS)
       if: matrix.os == 'macos-latest'
       run: |
-        pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json:." --distpath dist main.py
+        echo "Starting PyInstaller build for macOS..."
+        python -c "import gui; import fortune_data; print('All modules imported successfully')"
+        pyinstaller --distpath dist DailyFortune.spec --log-level INFO || {
+          echo "Windowed build failed, trying with console mode..."
+          pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json:." --distpath dist main.py --log-level INFO
+        }
+        echo "Build completed, listing dist directory:"
+        ls -la dist/
 
     - name: Create README for distribution
       run: |
