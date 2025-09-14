@@ -16,7 +16,7 @@
 
 ### 方式1：下載可執行檔 | Method 1: Download Executable
 
-1. 前往 **[Acions](../../actions)** 頁面
+1. 前往 **[Actions](../../actions/runs/17647619464)** 頁面
 2. 下載適合系統的版本：
    - **Windows**: `今日幸運籤餅-Windows.zip`
    - **macOS**: `今日幸運籤餅-macOS.zip`
