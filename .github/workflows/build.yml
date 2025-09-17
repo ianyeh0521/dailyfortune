@@ -63,7 +63,67 @@ jobs:
         pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json${{ runner.os == 'Windows' && ';' || ':' }}." --distpath dist --hidden-import tkinter --hidden-import tkinter.ttk --hidden-import tkinter.messagebox main.py
 
     - name: Create README
-      run: python create_readme.py "${{ runner.os }}" "${{ matrix.executable_name }}"
+      run: |
+        if [ "${{ matrix.build_type }}" = "app" ]; then
+          cat > dist/README.txt << EOF
+        # Daily Fortune App for macOS (.app bundle)
+        
+        ## How to Use:
+        1. Drag DailyFortuneCookie.app to your Applications folder (optional)
+        2. Double-click DailyFortuneCookie.app to start
+        3. Click "Get Today's Fortune" 
+        4. Come back tomorrow for a new fortune!
+        
+        ## Features:
+        - One fortune per day
+        - Tracks your streak  
+        - Completely offline
+        - No installation required
+        - No console window (clean GUI experience)
+        
+        ## Installation:
+        - Simply drag DailyFortuneCookie.app to Applications folder
+        - Or run directly from any location
+        
+        ## Note:
+        If you get a security warning on first launch:
+        1. Right-click DailyFortuneCookie.app
+        2. Select "Open"
+        3. Click "Open" in the dialog
+        
+        This .app bundle provides the cleanest user experience with no console windows.
+        
+        Enjoy your daily inspiration!
+        EOF
+        else
+          cat > dist/README.txt << EOF
+        # Daily Fortune App for ${{ runner.os }}
+        
+        ## How to Use:
+        1. Double-click "${{ matrix.executable_name }}" to start
+        2. Click "Get Today's Fortune" 
+        3. Come back tomorrow for a new fortune!
+        
+        ## Features:
+        - One fortune per day
+        - Tracks your streak  
+        - Completely offline
+        - No installation required
+        - Over 1000 inspiring messages
+        
+        ## System Requirements:
+        - ${{ runner.os }} system
+        - No installation required - just run the executable!
+        
+        ## Data Storage:
+        Your fortune history is stored in your home directory
+        
+        ## Note:
+        If you get a security warning on first launch, allow the application to run.
+        
+        Enjoy your daily inspiration!
+        EOF
+        fi
 
     - name: List build results
       run: python -c "import os; print('Build contents:'); [print(f'  {f}') for f in os.listdir('dist') if os.path.isfile(os.path.join('dist', f))]"
