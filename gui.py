@@ -6,6 +6,8 @@ Simple, clean interface for fortune display
 import tkinter as tk
 from tkinter import ttk, messagebox
 from datetime import datetime
+import platform
+import sys
 from fortune_data import FortuneManager
 
 class FortuneApp:
@@ -143,12 +145,26 @@ class FortuneApp:
         self.fortune_text.tag_add("center", "1.0", tk.END)
         self.fortune_text.config(state="disabled")
     
+    def show_message(self, title, message, msg_type="info"):
+        """Show message with proper window focus for macOS app bundles"""
+        # Bring window to front and focus for macOS app bundles
+        if platform.system() == "Darwin" and getattr(sys, 'frozen', False):
+            self.root.lift()
+            self.root.attributes('-topmost', True)
+            self.root.after(100, lambda: self.root.attributes('-topmost', False))
+            self.root.focus_force()
+        
+        if msg_type == "error":
+            messagebox.showerror(title, message, parent=self.root)
+        else:
+            messagebox.showinfo(title, message, parent=self.root)
+
     def generate_fortune(self):
         """Generate and display today's fortune"""
         try:
             if not self.fortune_manager.can_generate_fortune():
-                messagebox.showinfo("已經生成", 
-                                  "您已經收到今日的籤餅了！\n明天再來獲取新的籤餅。")
+                self.show_message("已經生成", 
+                                "您已經收到今日的籤餅了！\n明天再來獲取新的籤餅。")
                 return
             
             fortune = self.fortune_manager.generate_fortune()
@@ -158,11 +174,11 @@ class FortuneApp:
             self.generate_button.config(text="籤餅已生成！", state="disabled")
             
             # Show success message
-            messagebox.showinfo("籤餅已生成！", 
-                              f'您今日的籤餅：\n\n"{fortune["text"]}"')
+            self.show_message("籤餅已生成！", 
+                            f'您今日的籤餅：\n\n"{fortune["text"]}"')
             
         except Exception as e:
-            messagebox.showerror("錯誤", f"生成籤餅失敗: {str(e)}")
+            self.show_message("錯誤", f"生成籤餅失敗: {str(e)}", "error")
     
     def show_stats(self):
         """Show user statistics in a popup"""
@@ -170,7 +186,7 @@ class FortuneApp:
             stats = self.fortune_manager.get_stats()
             
             if stats["total_fortunes"] == 0:
-                messagebox.showinfo("統計資料", "尚未生成籤餅！\n獲取您的第一個籤餅來查看統計資料。")
+                self.show_message("統計資料", "尚未生成籤餅！\n獲取您的第一個籤餅來查看統計資料。")
                 return
             
             stats_text = f"""籤餅統計：
@@ -182,10 +198,10 @@ class FortuneApp:
 
 繼續保持！每天回來維持您的連續記錄。"""
             
-            messagebox.showinfo("您的籤餅統計", stats_text)
+            self.show_message("您的籤餅統計", stats_text)
             
         except Exception as e:
-            messagebox.showerror("錯誤", f"載入統計資料失敗: {str(e)}")
+            self.show_message("錯誤", f"載入統計資料失敗: {str(e)}", "error")
     
     def run(self):
         """Start the application"""
@@ -194,5 +210,5 @@ class FortuneApp:
         except KeyboardInterrupt:
             self.root.quit()
         except Exception as e:
-            messagebox.showerror("應用程式錯誤", f"發生未預期的錯誤: {str(e)}")
+            self.show_message("應用程式錯誤", f"發生未預期的錯誤: {str(e)}", "error")
             self.root.quit()
