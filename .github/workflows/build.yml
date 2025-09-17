@@ -62,10 +62,10 @@ jobs:
         python -c "print('Windowed build failed, trying console mode...')"
         pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json${{ runner.os == 'Windows' && ';' || ':' }}." --distpath dist --hidden-import tkinter --hidden-import tkinter.ttk --hidden-import tkinter.messagebox main.py
 
-    - name: Create README
+    - name: Create README for app bundle
+      if: matrix.build_type == 'app'
       run: |
-        if [ "${{ matrix.build_type }}" = "app" ]; then
-          cat > dist/README.txt << EOF
+        cat > dist/README.txt << 'EOF'
         # Daily Fortune App for macOS (.app bundle)
         
         ## How to Use:
@@ -95,8 +95,12 @@ jobs:
         
         Enjoy your daily inspiration!
         EOF
-        else
-          cat > dist/README.txt << EOF
+      shell: bash
+
+    - name: Create README for executable
+      if: matrix.build_type == 'executable'
+      run: |
+        cat > dist/README.txt << EOF
         # Daily Fortune App for ${{ runner.os }}
         
         ## How to Use:
@@ -123,7 +127,7 @@ jobs:
         
         Enjoy your daily inspiration!
         EOF
-        fi
+      shell: bash
 
     - name: List build results
       run: python -c "import os; print('Build contents:'); [print(f'  {f}') for f in os.listdir('dist') if os.path.isfile(os.path.join('dist', f))]"
