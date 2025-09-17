@@ -24,7 +24,6 @@ rm -rf build dist *.spec release_app
 echo "Building macOS .app bundle..."
 python3 -m PyInstaller \
     --onedir \
-    --windowed \
     --add-data "fortunes.json:." \
     --name "DailyFortune" \
     main.py
