@@ -5,7 +5,6 @@ Handles fortune storage, user history, and daily limit logic
 
 import json
 import os
-import sys
 import random
 from datetime import datetime, date
 from typing import Dict, List, Optional
@@ -16,6 +15,7 @@ class FortuneManager:
         os.makedirs(self.app_dir, exist_ok=True)
         
         # Handle both development and PyInstaller bundle
+        import sys
         if getattr(sys, 'frozen', False):
             # Running as PyInstaller bundle
             bundle_dir = sys._MEIPASS

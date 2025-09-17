@@ -15,9 +15,15 @@ jobs:
           - os: windows-latest
             artifact_name: fortune-cookie-windows
             executable_name: DailyFortuneCookie.exe
+            build_type: executable
           - os: macos-latest  
             artifact_name: fortune-cookie-macos
             executable_name: DailyFortuneCookie
+            build_type: executable
+          - os: macos-latest
+            artifact_name: fortune-cookie-macos-app
+            executable_name: DailyFortuneCookie.app
+            build_type: app
 
     steps:
     - uses: actions/checkout@v4
@@ -40,12 +46,18 @@ jobs:
     - name: Verify required files exist
       run: python -c "import os; assert os.path.exists('fortunes.json'), 'fortunes.json missing'; assert os.path.exists('main.py'), 'main.py missing'; print('All files OK')"
 
-    - name: Build with PyInstaller
+    - name: Build executable
+      if: matrix.build_type == 'executable'
       run: |
         pyinstaller --onefile --windowed --name "DailyFortuneCookie" --add-data "fortunes.json${{ runner.os == 'Windows' && ';' || ':' }}." --distpath dist --hidden-import tkinter --hidden-import tkinter.ttk --hidden-import tkinter.messagebox main.py
 
+    - name: Build macOS app bundle
+      if: matrix.build_type == 'app'
+      run: |
+        pyinstaller --onedir --windowed --name "DailyFortuneCookie" --add-data "fortunes.json:." --distpath dist --hidden-import tkinter --hidden-import tkinter.ttk --hidden-import tkinter.messagebox main.py
+
     - name: Fallback console build if needed
-      if: failure()
+      if: failure() && matrix.build_type == 'executable'
       run: |
         python -c "print('Windowed build failed, trying console mode...')"
         pyinstaller --onefile --console --name "DailyFortuneCookie" --add-data "fortunes.json${{ runner.os == 'Windows' && ';' || ':' }}." --distpath dist --hidden-import tkinter --hidden-import tkinter.ttk --hidden-import tkinter.messagebox main.py
@@ -56,7 +68,17 @@ jobs:
     - name: List build results
       run: python -c "import os; print('Build contents:'); [print(f'  {f}') for f in os.listdir('dist') if os.path.isfile(os.path.join('dist', f))]"
 
-    - name: Upload artifact
+    - name: Upload executable artifact
+      if: matrix.build_type == 'executable'
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.artifact_name }}
+        path: |
+          dist/${{ matrix.executable_name }}
+          dist/README.txt
+
+    - name: Upload app bundle artifact
+      if: matrix.build_type == 'app'
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.artifact_name }}
@@ -81,6 +103,12 @@ jobs:
         name: fortune-cookie-macos
         path: ./macos-release
 
+    - name: Download macOS app bundle artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: fortune-cookie-macos-app
+        path: ./macos-app-release
+
     - name: Create Windows ZIP
       run: |
         cd windows-release
@@ -91,11 +119,17 @@ jobs:
         cd macos-release  
         zip -r "../DailyFortune-macOS.zip" .
 
+    - name: Create macOS App Bundle ZIP
+      run: |
+        cd macos-app-release
+        zip -r "../DailyFortune-macOS-App.zip" .
+
     - name: Upload Release Assets
       uses: softprops/action-gh-release@v1
       with:
         files: |
           DailyFortune-Windows.zip
           DailyFortune-macOS.zip
+          DailyFortune-macOS-App.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
