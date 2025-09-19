@@ -4,11 +4,9 @@
 
 ## 特色功能 | Features
 
--  **每日限定** - 一天只能獲得一個籤餅，保持神秘感
--  **統計追蹤** - 記錄連續天數和總籤餅數
--  **豐富內容** - 超過 1000 條精心挑選的籤餅內容
--  **離線運行** - 無需網路連線，完全本地運行
--  **隱私保護** - 所有資料儲存在本地，絕不上傳
+-  **每日限定** - 一天只能獲得「一個」籤餅，保持神秘感
+-  **統計追蹤** - 紀錄連續獲得天數，滿足對連勝的渴望
+-  **離線運行** - 無需網路，完全在本地運行
 
 ---
 
@@ -16,26 +14,27 @@
 
 ### 方式1：下載可執行檔 | Method 1: Download Executable
 
-1. 前往 **[Actions](../../actions/runs/17647619464)** 頁面
+1. 前往 **[Actions](../../actions)** 頁面，選擇最新的 run
 2. 下載適合系統的版本：
-   - **Windows**: `今日幸運籤餅-Windows.zip`
-   - **macOS**: `今日幸運籤餅-macOS.zip`
+   - **Windows**: `fortune-cookie-windows.zip`
+   - **macOS exe版**: `fortune-cookie-macos.zip`
+   - **macOS app版**: `fortune-cookie-macos-app.zip`
 3. 解壓縮並雙擊執行檔即可使用
 
 ### 方式2：從原始碼運行 | Method 2: Run from Source
 
 ```bash
-# Clone the project
+# Clone 專案
 git clone https://github.com/[your-username]/dailyfortune.git
 cd dailyfortune
 
-# Install dependencies  
+# 安裝 dependency  
 pip install pyinstaller
 
-# Run directly
+# 執行
 python main.py
 
-# Or build executable
+# 或建立 executable
 python build_universal.py
 ```
 
@@ -57,6 +56,7 @@ python build_universal.py
 ### macOS 使用者 | macOS Users  
 - 可能出現「無法驗證開發者」警告
 - 右鍵點擊應用程式 → 選擇「打開」→ 點擊「打開」
+- 或是前往「設定」 > 「隱私權與安全性」 > 「安全性」，然後點擊右下角的「允許」 按鈕
 
 ## 資料儲存 | Data Storage
 
@@ -66,6 +66,15 @@ python build_universal.py
 - **macOS**: `/Users/[username]/.dailyfortune/`
 - **Linux**: `/home/[username]/.dailyfortune/`
 
+### 自動備份功能 | Automatic Backup
+
+應用程式會自動備份您的資料到以下位置，確保更新版本時不會遺失資料：
+
+- **Documents/DailyFortune/backup/**
+- **Desktop/DailyFortune_Backup/**
+- **Home/DailyFortune_Data/**
+
+**更新步驟**：直接下載新版本並刪除舊資料夾，應用程式會自動復原您的歷史記錄和統計資料。
 
 ### 建置狀態 | Build Status
 ![Build Status](../../actions/workflows/build.yml/badge.svg)

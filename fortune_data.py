@@ -6,6 +6,7 @@ Handles fortune storage, user history, and daily limit logic
 import json
 import os
 import random
+import shutil
 from datetime import datetime, date
 from typing import Dict, List, Optional
 
@@ -27,6 +28,8 @@ class FortuneManager:
         
         self.fortunes = self._load_fortunes()
         self.user_data = self._load_user_data()
+        
+        self._try_restore_from_backup()
     
     def _load_fortunes(self) -> List[Dict]:
         """Load fortune database"""
@@ -82,6 +85,7 @@ class FortuneManager:
         try:
             with open(self.user_data_file, 'w', encoding='utf-8') as f:
                 json.dump(self.user_data, f, indent=2, default=str)
+            self._create_backup()
         except Exception as e:
             print(f"Error saving user data: {e}")
     
@@ -175,3 +179,112 @@ class FortuneManager:
             "first_fortune": history[0]["date"],
             "last_fortune": history[-1]["date"]
         }
+    
+    def _get_backup_locations(self) -> List[str]:
+        """Get list of backup locations in priority order"""
+        home_dir = os.path.expanduser("~")
+        locations = []
+        
+        documents_dir = os.path.join(home_dir, "Documents", "DailyFortune", "backup")
+        desktop_dir = os.path.join(home_dir, "Desktop", "DailyFortune_Backup")
+        home_backup_dir = os.path.join(home_dir, "DailyFortune_Data")
+        
+        locations.extend([documents_dir, desktop_dir, home_backup_dir])
+        
+        return locations
+    
+    def _create_backup(self):
+        """Create backup of user data in persistent locations"""
+        if not self.user_data.get("history"):
+            return
+        
+        backup_data = {
+            "user_data": self.user_data,
+            "backup_info": {
+                "timestamp": datetime.now().isoformat(),
+                "device_id": self.user_data.get("device_id"),
+                "version": "1.0"
+            }
+        }
+        
+        for backup_dir in self._get_backup_locations():
+            try:
+                os.makedirs(backup_dir, exist_ok=True)
+                
+                backup_file = os.path.join(backup_dir, "user_data_backup.json")
+                info_file = os.path.join(backup_dir, "backup_info.json")
+                
+                with open(backup_file, 'w', encoding='utf-8') as f:
+                    json.dump(backup_data["user_data"], f, indent=2, default=str)
+                
+                with open(info_file, 'w', encoding='utf-8') as f:
+                    json.dump(backup_data["backup_info"], f, indent=2, default=str)
+                
+                self._cleanup_old_backups(backup_dir)
+                
+            except Exception as e:
+                continue
+    
+    def _cleanup_old_backups(self, backup_dir: str):
+        """Keep only the 5 most recent backups"""
+        try:
+            backup_files = []
+            for filename in os.listdir(backup_dir):
+                if filename.startswith("user_data_backup") and filename.endswith(".json"):
+                    filepath = os.path.join(backup_dir, filename)
+                    backup_files.append((filepath, os.path.getmtime(filepath)))
+            
+            backup_files.sort(key=lambda x: x[1], reverse=True)
+            
+            for filepath, _ in backup_files[5:]:
+                try:
+                    os.remove(filepath)
+                    info_file = filepath.replace("user_data_backup", "backup_info")
+                    if os.path.exists(info_file):
+                        os.remove(info_file)
+                except:
+                    pass
+                    
+        except Exception:
+            pass
+    
+    def _try_restore_from_backup(self):
+        """Try to restore user data from backup if current data is missing/empty"""
+        current_has_history = bool(self.user_data.get("history"))
+        current_user_data_exists = os.path.exists(self.user_data_file)
+        
+        # Only restore if we have no history AND (no user data file OR it's empty/minimal)
+        if current_has_history:
+            return
+            
+        # Look for the most recent backup across all locations
+        best_backup = None
+        latest_timestamp = None
+        
+        for backup_dir in self._get_backup_locations():
+            backup_file = os.path.join(backup_dir, "user_data_backup.json")
+            info_file = os.path.join(backup_dir, "backup_info.json")
+            
+            if os.path.exists(backup_file) and os.path.exists(info_file):
+                try:
+                    with open(info_file, 'r', encoding='utf-8') as f:
+                        backup_info = json.load(f)
+                    
+                    backup_timestamp = backup_info.get("timestamp")
+                    if backup_timestamp and (latest_timestamp is None or backup_timestamp > latest_timestamp):
+                        with open(backup_file, 'r', encoding='utf-8') as f:
+                            restored_data = json.load(f)
+                        
+                        if restored_data.get("history"):
+                            best_backup = restored_data
+                            latest_timestamp = backup_timestamp
+                            
+                except Exception as e:
+                    continue
+        
+        # Restore the best backup found
+        if best_backup:
+            self.user_data = best_backup
+            self._save_user_data()
+            print(f"Restored user data from backup ({len(best_backup['history'])} entries)")
+            return
