@@ -180,6 +180,25 @@ class FortuneManager:
             "last_fortune": history[-1]["date"]
         }
     
+    def get_fortune_by_date(self, target_date: str) -> Optional[Dict]:
+        """Get fortune for a specific date (YYYY-MM-DD format)"""
+        for entry in self.user_data["history"]:
+            if entry["date"] == target_date:
+                # Find the corresponding fortune
+                for fortune in self.fortunes:
+                    if fortune["id"] == entry["fortune_id"]:
+                        return {
+                            **fortune,
+                            "generated_at": entry["timestamp"],
+                            "date": entry["date"]
+                        }
+        return None
+    
+    def get_available_dates(self) -> List[str]:
+        """Get list of dates with generated fortunes (sorted newest first)"""
+        dates = [entry["date"] for entry in self.user_data["history"]]
+        return sorted(dates, reverse=True)
+    
     def _get_backup_locations(self) -> List[str]:
         """Get list of backup locations in priority order"""
         home_dir = os.path.expanduser("~")
